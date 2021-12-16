@@ -1,19 +1,7 @@
-.image {
-  background-color: whitesmoke;
-}
-li {
-  display: flex;
-  justify-content: right;
-}
-.container {
-  background-color: whitesmoke;
-  display: flex;
-  justify-content: space-between;
-  flex-basis: auto;
-}
-.el {
-}
-.el1 {
-}
-.el2 {
+body {
+  margin: 0;
+  display: grid;
+  grid-template-columns: 33, 3% 33, 3% 33, 3%;
+  grid-template-rows: 33, 3% 33, 3% 33, 3%;
+  grid-area: ;
 }
