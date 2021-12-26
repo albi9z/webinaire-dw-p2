@@ -68,14 +68,13 @@ body {
 /* section Trouvez 2 */
 
 .box_1 {
-  background: rgb(173, 155, 155);
+  background: whitesmoke;
   padding: 15px;
 }
 
 /* section Hebergement article 3 */
 
 .container_1 {
-  background-color: aqua;
 }
 
 .h2 {
@@ -92,7 +91,7 @@ body {
   flex-wrap: wrap;
   border-radius: 5%;
   justify-content: space-evenly;
-  background: rgb(240, 210, 210);
+  background: rgb(200, 200, 200);
   width: 700px;
   height: 500px;
   margin: auto;
@@ -102,7 +101,7 @@ body {
 }
 
 .article {
-  width: 100px;
+  width: 200px;
   height: 200px;
   background-color: rgb(255, 255, 255);
   border-radius: 8%;
@@ -110,7 +109,6 @@ body {
 }
 
 .col-populaire {
-  margin: auto;
 }
 
 .box_3 {
@@ -118,7 +116,7 @@ body {
   flex-direction: column;
   border-radius: 5%;
   justify-content: space-evenly;
-  background: rgb(224, 186, 186);
+  background: rgb(200, 200, 200);
   height: 500px;
   width: 300px;
 }
@@ -126,7 +124,7 @@ body {
 .article_1 {
   width: 150px;
   height: 100px;
-  background-color: rgb(255, 255, 255);
+  background: rgb(221, 182, 182);
   border-radius: 8%;
   border: solid rgb(255, 255, 255) 5px;
 }
@@ -148,6 +146,9 @@ body {
 }
 
 /* section footer 5 */
+
+.col .col_footer {
+}
 
 .box_5 {
   display: flex;
