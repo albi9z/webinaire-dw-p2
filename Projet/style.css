@@ -104,25 +104,75 @@ body {
 
 .article {
   width: 200px;
-  height: 200px;
+  height: 250px;
   background-color: rgb(255, 255, 255);
   border-radius: 8%;
   border: solid rgb(255, 255, 255) 5px;
 }
-
-.article > img {
-  max-width: 100%;
-  border-radius: 3%;
+.article_1 {
+  width: 200px;
+  height: 250px;
+  background-color: rgb(255, 255, 255);
+  border-radius: 8%;
+  border: solid rgb(255, 255, 255) 5px;
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-image: url(../Projet/Img/3_medium/marcus-loke-WQJvWU_HZFo-unsplash.jpg);
+}
+.article_2 {
+  width: 200px;
+  height: 250px;
+  background-color: rgb(255, 255, 255);
+  border-radius: 8%;
+  border: solid rgb(255, 255, 255) 5px;
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-image: url(../Projet/Img/3_medium/annie-spratt-Eg1qcIitAuA-unsplash.jpg);
+}
+.article_3 {
+  width: 200px;
+  height: 250px;
+  background-color: rgb(255, 255, 255);
+  border-radius: 8%;
+  border: solid rgb(255, 255, 255) 5px;
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-image: url(../Projet/Img/3_medium/fred-kleber-gTbaxaVLvsg-unsplash.jpg);
+}
+.article_4 {
+  width: 200px;
+  height: 250px;
+  background-color: rgb(255, 255, 255);
+  border-radius: 8%;
+  border: solid rgb(255, 255, 255) 5px;
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-image: url(../Projet/Img/3_medium/nicate-lee-kT-ZyaiwBe0-unsplash.jpg);
+}
+.article_5 {
+  width: 200px;
+  height: 250px;
+  background-color: rgb(255, 255, 255);
+  border-radius: 8%;
+  border: solid rgb(255, 255, 255) 5px;
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-image: url(../Projet/Img/3_medium/reisetopia-B8WIgxA_PFU-unsplash.jpg);
+}
+.article_6 {
+  width: 200px;
+  height: 250px;
+  background-color: rgb(255, 255, 255);
+  border-radius: 8%;
+  border: solid rgb(255, 255, 255) 5px;
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-image: url(../Projet/Img/3_medium/febrian-zakaria-M6S1WvfW68A-unsplash.jpg);
 }
 
 .ancre_2 {
   width: 100%;
   width: 100%;
-}
-
-.col-populaire {
-  display: flex;
-  width: 33%;
 }
 
 .box_3 {
@@ -133,19 +183,6 @@ body {
   background: rgb(200, 200, 200);
   margin: 10px 10px 10px 20px;
   width: 40%;
-}
-
-.article_1 {
-  width: 100px;
-  height: 100px;
-  background: rgb(255, 255, 255);
-  border-radius: 8%;
-  border: solid rgb(255, 255, 255) 5px;
-}
-
-.article_1 > img {
-  max-width: 100%;
-  border-radius: 3%;
 }
 
 /* section activite 4 */
