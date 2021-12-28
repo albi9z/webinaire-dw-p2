@@ -58,9 +58,9 @@ body {
 
 /* section nav 1 */
 
-.box {
-  background: #ddd;
-  padding: 15px;
+.container_0 {
+  display: flex;
+  background-color: rgb(157, 238, 238);
 }
 
 .ancre {
@@ -71,14 +71,24 @@ body {
 
 /* section Trouvez 2 */
 
+.container_1 {
+  display: flex;
+  background-color: rgb(113, 172, 172);
+}
+
+.col-hebergement {
+}
+
 .box_1 {
+  display: flex;
   background: whitesmoke;
   padding: 15px;
+  flex-wrap: wrap;
 }
 
 /* section Hebergement article 3 */
 
-.container_1 {
+.container_2 {
   display: flex;
   background-color: aqua;
 }
@@ -90,11 +100,11 @@ body {
 .box_2 {
   display: flex;
   flex-wrap: wrap;
-  border-radius: 5%;
+  border-radius: 20px;
   justify-content: space-evenly;
   background: rgb(200, 200, 200);
   width: 66%;
-  margin: 10px 10px 10px 20px;
+  margin: 20px 10px 30px 10px;
 }
 
 .h2 {
@@ -102,68 +112,78 @@ body {
   height: 28px;
 }
 
-.article {
-  width: 200px;
-  height: 250px;
-  background-color: rgb(255, 255, 255);
-  border-radius: 8%;
-  border: solid rgb(255, 255, 255) 5px;
-}
 .article_1 {
+  display: flex;
+  align-items: flex-end;
   width: 200px;
   height: 250px;
   background-color: rgb(255, 255, 255);
-  border-radius: 8%;
+  border-radius: 5px;
   border: solid rgb(255, 255, 255) 5px;
-  background-size: contain;
+  background-size: 200px 150px;
   background-repeat: no-repeat;
   background-image: url(../Projet/Img/3_medium/marcus-loke-WQJvWU_HZFo-unsplash.jpg);
 }
+
 .article_2 {
+  display: flex;
+  align-items: flex-end;
   width: 200px;
   height: 250px;
   background-color: rgb(255, 255, 255);
-  border-radius: 8%;
+  border-radius: 5px;
   border: solid rgb(255, 255, 255) 5px;
-  background-size: contain;
+  background-size: 200px 150px;
   background-repeat: no-repeat;
   background-image: url(../Projet/Img/3_medium/annie-spratt-Eg1qcIitAuA-unsplash.jpg);
 }
+
 .article_3 {
+  display: flex;
+  align-items: flex-end;
   width: 200px;
   height: 250px;
   background-color: rgb(255, 255, 255);
-  border-radius: 8%;
+  border-radius: 5px;
   border: solid rgb(255, 255, 255) 5px;
-  background-size: contain;
+  background-size: 200px 150px;
   background-repeat: no-repeat;
   background-image: url(../Projet/Img/3_medium/fred-kleber-gTbaxaVLvsg-unsplash.jpg);
 }
+
 .article_4 {
+  display: flex;
+  align-items: flex-end;
   width: 200px;
   height: 250px;
   background-color: rgb(255, 255, 255);
-  border-radius: 8%;
+  border-radius: 5px;
   border: solid rgb(255, 255, 255) 5px;
   background-size: contain;
   background-repeat: no-repeat;
   background-image: url(../Projet/Img/3_medium/nicate-lee-kT-ZyaiwBe0-unsplash.jpg);
 }
+
 .article_5 {
+  display: flex;
+  align-items: flex-end;
   width: 200px;
   height: 250px;
   background-color: rgb(255, 255, 255);
-  border-radius: 8%;
+  border-radius: 5px;
   border: solid rgb(255, 255, 255) 5px;
   background-size: contain;
   background-repeat: no-repeat;
   background-image: url(../Projet/Img/3_medium/reisetopia-B8WIgxA_PFU-unsplash.jpg);
 }
+
 .article_6 {
+  display: flex;
+  align-items: flex-end;
   width: 200px;
   height: 250px;
   background-color: rgb(255, 255, 255);
-  border-radius: 8%;
+  border-radius: 5px;
   border: solid rgb(255, 255, 255) 5px;
   background-size: contain;
   background-repeat: no-repeat;
@@ -172,30 +192,158 @@ body {
 
 .ancre_2 {
   width: 100%;
-  width: 100%;
+  height: 28px;
 }
 
+/* les plus populaire*/
+
+.les_plus_populaire {
+  width: 40%;
+}
 .box_3 {
   display: flex;
   flex-direction: column;
-  border-radius: 5%;
+  border-radius: 20px;
   justify-content: space-evenly;
   background: rgb(200, 200, 200);
-  margin: 10px 10px 10px 20px;
-  width: 40%;
+  margin: 30px 10px 30px 10px;
+}
+
+.article_7 {
+  display: flex;
+  align-items: flex-end;
+  width: 300px;
+  height: 150px;
+  background-color: rgb(255, 255, 255);
+  border-radius: 5px;
+  border: solid rgb(255, 255, 255) 5px;
+  background-position: left;
+  background-size: 150px 270px;
+  background-repeat: no-repeat;
+  background-image: url(../Projet/Img/3_medium/emile-guillemot-Bj_rcSC5XfE-unsplash.jpg);
+}
+
+.article_8 {
+  display: flex;
+  align-items: flex-end;
+  width: 300px;
+  height: 150px;
+  background-color: rgb(255, 255, 255);
+  border-radius: 5px;
+  border: solid rgb(255, 255, 255) 5px;
+  background-position: left;
+  background-size: 150px 270px;
+  background-repeat: no-repeat;
+  background-image: url(../Projet/Img/3_medium/aw-creative-VGs8z60yT2c-unsplash.jpg);
+}
+
+.article_9 {
+  display: flex;
+  align-items: flex-end;
+  width: 300px;
+  height: 150px;
+  background-color: rgb(255, 255, 255);
+  border-radius: 5px;
+  border: solid rgb(255, 255, 255) 5px;
+  background-position: left;
+  background-size: 150px 270px;
+  background-repeat: no-repeat;
+  background-image: url(../Projet/Img/3_medium/febrian-zakaria-sjvU0THccQA-unsplash.jpg);
 }
 
 /* section activite 4 */
 
 .col-activite {
   display: flex;
-  background-color: aquamarine;
 }
 
 .box_4 {
   display: flex;
   flex-wrap: wrap;
-  background: rgb(207, 185, 185);
+  justify-content: space-evenly;
+  background: rgb(243, 112, 112);
+}
+
+.h2_activite {
+  width: -webkit-fill-available;
+}
+
+.article_10 {
+  display: flex;
+  align-items: flex-end;
+  width: 200px;
+  height: 400px;
+  background-color: rgb(255, 255, 255);
+  border-radius: 5px;
+  border: solid rgb(255, 255, 255) 5px;
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-image: url(../Projet/Img/3mediuma/reno-laithienne-QUgJhdY5Fyk-unsplash.jpg);
+}
+
+.article_11 {
+  display: flex;
+  align-items: flex-end;
+  width: 200px;
+  height: 150px;
+  background-color: rgb(255, 255, 255);
+  border-radius: 5px;
+  border: solid rgb(255, 255, 255) 5px;
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-image: url(../Projet/Img/3mediuma/paul-hermann-QFTrLdQIRhI-unsplash.jpg);
+}
+
+.article_12 {
+  display: flex;
+  align-items: flex-end;
+  width: 200px;
+  height: 150px;
+  background-color: rgb(255, 255, 255);
+  border-radius: 5px;
+  border: solid rgb(255, 255, 255) 5px;
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-image: url(../Projet/Img/3mediuma/kevin-hikari-rV_Qd1l-VXg-unsplash.jpg);
+}
+
+.article_13 {
+  display: flex;
+  align-items: flex-end;
+  width: 200px;
+  height: 400px;
+  background-color: rgb(255, 255, 255);
+  border-radius: 5px;
+  border: solid rgb(255, 255, 255) 5px;
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-image: url(../Projet/Img/3mediuma/kilyan-sockalingum-NR8-cBCN3aI-unsplash.jpg);
+}
+
+.article_14 {
+  display: flex;
+  align-items: flex-end;
+  width: 200px;
+  height: 150px;
+  background-color: rgb(255, 255, 255);
+  border-radius: 5px;
+  border: solid rgb(255, 255, 255) 5px;
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-image: url(../Projet/Img/3mediuma/florian-wehde-xW9e8gdotwl-unspplash.jpg);
+}
+
+.article_15 {
+  display: flex;
+  align-items: flex-end;
+  width: 200px;
+  height: 150px;
+  background-color: rgb(255, 255, 255);
+  border-radius: 5px;
+  border: solid rgb(255, 255, 255) 5px;
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-image: url(../Projet/Img/3mediuma/lena-paulin-wH2-EJoDcV0-unsplash.jpg);
 }
 
 /* section footer 5 */
@@ -205,6 +353,6 @@ body {
 
 .box_5 {
   display: flex;
-  justify-content: space-between;
-  background: rgb(241, 189, 189);
+  justify-content: flex-start;
+  justify-content: space-around;
 }
