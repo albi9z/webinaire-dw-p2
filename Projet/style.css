@@ -114,7 +114,6 @@ body {
 
 .article_1 {
   display: flex;
-  align-items: flex-end;
   width: 200px;
   height: 250px;
   background-color: rgb(255, 255, 255);
@@ -122,12 +121,14 @@ body {
   border: solid rgb(255, 255, 255) 5px;
   background-size: 200px 150px;
   background-repeat: no-repeat;
-  background-image: url(../Projet/Img/3_medium/marcus-loke-WQJvWU_HZFo-unsplash.jpg);
+}
+
+.article_1 > .img_1 {
+  width: 100%;
 }
 
 .article_2 {
   display: flex;
-  align-items: flex-end;
   width: 200px;
   height: 250px;
   background-color: rgb(255, 255, 255);
@@ -135,12 +136,14 @@ body {
   border: solid rgb(255, 255, 255) 5px;
   background-size: 200px 150px;
   background-repeat: no-repeat;
-  background-image: url(../Projet/Img/3_medium/annie-spratt-Eg1qcIitAuA-unsplash.jpg);
+}
+
+.article_2 > .img_2 {
+  width: 100%;
 }
 
 .article_3 {
   display: flex;
-  align-items: flex-end;
   width: 200px;
   height: 250px;
   background-color: rgb(255, 255, 255);
@@ -148,12 +151,14 @@ body {
   border: solid rgb(255, 255, 255) 5px;
   background-size: 200px 150px;
   background-repeat: no-repeat;
-  background-image: url(../Projet/Img/3_medium/fred-kleber-gTbaxaVLvsg-unsplash.jpg);
+}
+
+.article_3 > .img_3 {
+  width: 100%;
 }
 
 .article_4 {
   display: flex;
-  align-items: flex-end;
   width: 200px;
   height: 250px;
   background-color: rgb(255, 255, 255);
@@ -161,12 +166,14 @@ body {
   border: solid rgb(255, 255, 255) 5px;
   background-size: contain;
   background-repeat: no-repeat;
-  background-image: url(../Projet/Img/3_medium/nicate-lee-kT-ZyaiwBe0-unsplash.jpg);
+}
+
+.article_4 > .img_4 {
+  width: 100%;
 }
 
 .article_5 {
   display: flex;
-  align-items: flex-end;
   width: 200px;
   height: 250px;
   background-color: rgb(255, 255, 255);
@@ -174,12 +181,14 @@ body {
   border: solid rgb(255, 255, 255) 5px;
   background-size: contain;
   background-repeat: no-repeat;
-  background-image: url(../Projet/Img/3_medium/reisetopia-B8WIgxA_PFU-unsplash.jpg);
+}
+
+.article_5 > .img_5 {
+  width: 100%;
 }
 
 .article_6 {
   display: flex;
-  align-items: flex-end;
   width: 200px;
   height: 250px;
   background-color: rgb(255, 255, 255);
@@ -187,7 +196,10 @@ body {
   border: solid rgb(255, 255, 255) 5px;
   background-size: contain;
   background-repeat: no-repeat;
-  background-image: url(../Projet/Img/3_medium/febrian-zakaria-M6S1WvfW68A-unsplash.jpg);
+}
+
+.article_6 > .img_6 {
+  width: 100%;
 }
 
 .ancre_2 {
@@ -200,6 +212,7 @@ body {
 .les_plus_populaire {
   width: 40%;
 }
+
 .box_3 {
   display: flex;
   flex-direction: column;
@@ -220,7 +233,10 @@ body {
   background-position: left;
   background-size: 150px 270px;
   background-repeat: no-repeat;
-  background-image: url(../Projet/Img/3_medium/emile-guillemot-Bj_rcSC5XfE-unsplash.jpg);
+}
+
+.article_7 > .img_7 {
+  width: 100%;
 }
 
 .article_8 {
@@ -234,7 +250,10 @@ body {
   background-position: left;
   background-size: 150px 270px;
   background-repeat: no-repeat;
-  background-image: url(../Projet/Img/3_medium/aw-creative-VGs8z60yT2c-unsplash.jpg);
+}
+
+.article_8 > .img_8 {
+  width: 100%;
 }
 
 .article_9 {
@@ -248,7 +267,10 @@ body {
   background-position: left;
   background-size: 150px 270px;
   background-repeat: no-repeat;
-  background-image: url(../Projet/Img/3_medium/febrian-zakaria-sjvU0THccQA-unsplash.jpg);
+}
+
+.article_9 > .img_9 {
+  width: 100%;
 }
 
 /* section activite 4 */
@@ -270,7 +292,6 @@ body {
 
 .article_10 {
   display: flex;
-  align-items: flex-end;
   width: 200px;
   height: 400px;
   background-color: rgb(255, 255, 255);
@@ -278,7 +299,6 @@ body {
   border: solid rgb(255, 255, 255) 5px;
   background-size: contain;
   background-repeat: no-repeat;
-  background-image: url(../Projet/Img/3mediuma/reno-laithienne-QUgJhdY5Fyk-unsplash.jpg);
 }
 
 .article_11 {
@@ -291,7 +311,6 @@ body {
   border: solid rgb(255, 255, 255) 5px;
   background-size: contain;
   background-repeat: no-repeat;
-  background-image: url(../Projet/Img/3mediuma/paul-hermann-QFTrLdQIRhI-unsplash.jpg);
 }
 
 .article_12 {
@@ -302,9 +321,6 @@ body {
   background-color: rgb(255, 255, 255);
   border-radius: 5px;
   border: solid rgb(255, 255, 255) 5px;
-  background-size: contain;
-  background-repeat: no-repeat;
-  background-image: url(../Projet/Img/3mediuma/kevin-hikari-rV_Qd1l-VXg-unsplash.jpg);
 }
 
 .article_13 {
@@ -315,9 +331,6 @@ body {
   background-color: rgb(255, 255, 255);
   border-radius: 5px;
   border: solid rgb(255, 255, 255) 5px;
-  background-size: contain;
-  background-repeat: no-repeat;
-  background-image: url(../Projet/Img/3mediuma/kilyan-sockalingum-NR8-cBCN3aI-unsplash.jpg);
 }
 
 .article_14 {
@@ -328,9 +341,6 @@ body {
   background-color: rgb(255, 255, 255);
   border-radius: 5px;
   border: solid rgb(255, 255, 255) 5px;
-  background-size: contain;
-  background-repeat: no-repeat;
-  background-image: url(../Projet/Img/3mediuma/florian-wehde-xW9e8gdotwl-unspplash.jpg);
 }
 
 .article_15 {
@@ -341,9 +351,6 @@ body {
   background-color: rgb(255, 255, 255);
   border-radius: 5px;
   border: solid rgb(255, 255, 255) 5px;
-  background-size: contain;
-  background-repeat: no-repeat;
-  background-image: url(../Projet/Img/3mediuma/lena-paulin-wH2-EJoDcV0-unsplash.jpg);
 }
 
 /* section footer 5 */
