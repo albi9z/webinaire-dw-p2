@@ -56,6 +56,7 @@ body {
 /* container_nav */
 
 .ancre {
+  text-align: end;
 }
 
 /* container_1_section_trouvez */
@@ -67,7 +68,7 @@ body {
   background-color: rgb(163, 27, 27);
 }
 
-.ancre_1 a {
+.ancre_1 {
   border: solid 2px rgb(167, 167, 167);
   padding: 5px 15px;
   border-radius: 15px;
@@ -100,7 +101,7 @@ body {
   box-sizing: border-box;
 }
 
-.h2 {
+.h2_1 {
   width: 100%;
   height: 28px;
 }
@@ -113,6 +114,7 @@ body {
 
 .article_1 > .img_1 {
   width: 100%;
+  height: 150px;
 }
 
 .article_2 {
@@ -123,17 +125,18 @@ body {
 
 .article_2 > .img_2 {
   width: 100%;
+  height: 150px;
 }
 
 .article_3 {
   background-color: rgb(255, 255, 255);
   border-radius: 5px;
   border: solid rgb(255, 255, 255) 5px;
-  background-size: 200px 150px;
 }
 
 .article_3 > .img_3 {
   width: 100%;
+  height: 150px;
 }
 
 .article_4 {
@@ -144,6 +147,7 @@ body {
 
 .article_4 > .img_4 {
   width: 100%;
+  height: 150px;
 }
 
 .article_5 {
@@ -154,6 +158,7 @@ body {
 
 .article_5 > .img_5 {
   width: 100%;
+  height: 150px;
 }
 
 .article_6 {
@@ -164,6 +169,7 @@ body {
 
 .article_6 > .img_6 {
   width: 100%;
+  height: 150px;
 }
 
 .ancre_3 {
@@ -175,6 +181,7 @@ body {
 
 .les_plus_populaire {
   width: 40%;
+  display: flex;
 }
 
 .box_3 {
@@ -190,46 +197,44 @@ body {
   padding: 15px;
 }
 
+.h2_populaire {
+  margin: 10px;
+}
+
 .article_7 {
   display: flex;
-  background-color: rgb(255, 255, 255);
+  background-color: whitesmoke;
   border-radius: 5px;
   border: solid rgb(255, 255, 255) 5px;
-  background-position: left;
-  background-size: 150px 270px;
-  background-repeat: no-repeat;
 }
 
 .article_7 > .img_7 {
-  width: 50%;
+  width: 25%;
+  height: 150px;
 }
 
 .article_8 {
   display: flex;
-  background-color: rgb(255, 255, 255);
+  background-color: whitesmoke;
   border-radius: 5px;
   border: solid rgb(255, 255, 255) 5px;
-  background-position: left;
-  background-size: 150px 270px;
-  background-repeat: no-repeat;
 }
 
 .article_8 > .img_8 {
-  width: 50%;
+  width: 25%;
+  height: 150px;
 }
 
 .article_9 {
   display: flex;
-  background-color: rgb(255, 255, 255);
+  background-color: whitesmoke;
   border-radius: 5px;
   border: solid rgb(255, 255, 255) 5px;
-  background-position: left;
-  background-size: 150px 270px;
-  background-repeat: no-repeat;
 }
 
 .article_9 > .img_9 {
-  width: 50%;
+  width: 25%;
+  height: 150px;
 }
 
 /* section activite 4 */
@@ -240,7 +245,7 @@ body {
 .box_4 {
   display: flex;
   height: 500px;
-  background-color: rgb(194, 194, 194);
+  background-color: rgb(197, 197, 197);
 }
 
 .box_4 > div {
@@ -249,7 +254,7 @@ body {
 
 .h2_activite {
   width: 100%;
-  height: 28px;
+  margin: 10px;
 }
 
 .article_10 {
@@ -257,84 +262,79 @@ body {
   border-radius: 5px;
   border: solid rgb(255, 255, 255) 5px;
   height: 95%;
-  width: 150%;
 }
 
 .article_10 > .img_10 {
   width: 100%;
+  height: 90%;
 }
 
 .article_11 {
-  background-color: rgb(212, 173, 173);
+  background-color: rgb(255, 255, 255);
   border-radius: 5px;
   border: solid rgb(255, 255, 255) 5px;
-  background-size: 200px 150px;
-  height: 95%;
-  width: 150%;
+  height: 45%;
 }
 
 .article_11 > .img_11 {
   width: 100%;
+  height: 80%;
 }
 
 .article_12 {
-  background-color: rgb(160, 145, 145);
+  background-color: rgb(255, 255, 255);
   border-radius: 5px;
   border: solid rgb(255, 255, 255) 5px;
-  background-size: 200px 150px;
-  height: 95%;
-  width: 150%;
+  height: 45%;
 }
 
 .article_12 > .img_12 {
-  width: 100%;
+  height: 80%;
 }
 
 .article_13 {
-  background-color: rgb(129, 119, 119);
+  background-color: rgb(255, 255, 255);
   border-radius: 5px;
   border: solid rgb(255, 255, 255) 5px;
-  background-size: 200px 150px;
   height: 95%;
-  width: 150%;
 }
 
 .article_13 > .img_13 {
   width: 100%;
+  height: 90%;
 }
 
 .article_14 {
-  background-color: rgb(238, 161, 161);
+  background-color: rgb(255, 255, 255);
   border-radius: 5px;
   border: solid rgb(255, 255, 255) 5px;
-  background-size: 200px 150px;
   height: 95%;
-  width: 150%;
 }
 
 .article_14 > .img_14 {
   width: 100%;
+  height: 90%;
 }
 
 .article_15 {
   background-color: rgb(255, 255, 255);
   border-radius: 5px;
   border: solid rgb(255, 255, 255) 5px;
-  background-size: 200px 150px;
   height: 95%;
-  width: 150%;
 }
 
 .article_15 > .img_15 {
   width: 100%;
+  height: 90%;
 }
 
 /* container_4_section_footer */
 
 .col_footer {
-  background-color: rgb(168, 136, 136);
 }
 
 .box_5 {
+  background-color: gray;
   display: flex;
+  justify-content: space-around;
 }
