@@ -129,6 +129,7 @@ button {
 }
 
 .article_1 {
+  box-shadow: 10px 10px 5px rgb(230, 230, 230);
   background-color: rgb(255, 255, 255);
   border: solid rgb(255, 255, 255) 5px;
   border-radius: 30px;
@@ -172,21 +173,22 @@ button {
 
 /* h2_section_les_plus_populaire */
 
-.h2_populaire {
+.h2_2 {
   margin: 20px;
 }
 
 .article_2 {
+  box-shadow: 10px 10px 5px rgb(230, 230, 230);
   display: flex;
   background-color: whitesmoke;
-  border-radius: 30px;
+  border-radius: 20px;
   border: solid rgb(255, 255, 255) 5px;
 }
 
 .article_2 > .img_2 {
   width: 25%;
   height: 150px;
-  border-radius: 30px;
+  border-radius: 10px;
 }
 
 /* section_4_box_activite */
@@ -238,7 +240,7 @@ button {
 /* container_4_box_section_footer */
 
 .box_5 {
-  background-color: gray;
+  background-color: rgb(240, 240, 240);
   display: flex;
   justify-content: space-around;
 }
