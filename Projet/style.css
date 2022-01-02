@@ -3,6 +3,8 @@
 /* body */
 
 body {
+  display: flex;
+  flex-direction: column;
   margin: 0;
   font-family: "Signika Negative", sans-serif;
 }
@@ -249,4 +251,24 @@ button {
   background-color: rgb(240, 240, 240);
   display: flex;
   justify-content: space-between;
+}
+
+@media screen and (max-width 1000px) {
+  .box {
+    color: aqua;
+    width: 400px;
+  }
+
+  .box_2 {
+    color: aqua;
+    width: 400px;
+  }
+  .box_3 {
+    color: aqua;
+    width: 400px;
+  }
+  .box_4 {
+    color: aqua;
+    width: 400px;
+  }
 }
