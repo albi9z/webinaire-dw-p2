@@ -1,7 +1,10 @@
+@import url("https://fonts.googleapis.com/css2? family= Cabin & family= Nunito &famille= Signika+Négatif & display=swap");
+
 /* body */
 
 body {
   margin: 0;
+  font-family: "Signika Negative", sans-serif;
 }
 
 /* column*/
@@ -141,6 +144,8 @@ button {
   border-radius: 20px;
 }
 
+/* span_etoile_container_section_3 */
+
 /* ancre_afficher_plus_section_3_hebergement */
 
 .ancre_3 {
@@ -178,6 +183,7 @@ button {
 }
 
 .article_2 {
+  line-height: 1;
   box-shadow: 10px 10px 5px rgb(230, 230, 230);
   display: flex;
   background-color: whitesmoke;
@@ -242,5 +248,5 @@ button {
 .box_5 {
   background-color: rgb(240, 240, 240);
   display: flex;
-  justify-content: space-around;
+  justify-content: space-between;
 }
