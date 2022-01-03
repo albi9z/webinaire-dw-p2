@@ -58,6 +58,11 @@ body {
 
 /* container_nav */
 
+.nav {
+  height: 50px;
+  margin: 10px;
+}
+
 .ancre {
   text-align: end;
 }
@@ -261,38 +266,12 @@ button {
 
   /* container_nav_media_querie */
 
+  .nav {
+    width: 100%;
+    display: block;
+  }
+
   .ancre {
-    width: 100%;
-    display: block;
-  }
-
-  /* icon_localisation_section_2_trouvez_media_querie */
-
-  .span {
-    width: 100%;
-    display: block;
-  }
-
-  /*span _rond_button_section_2_trouvez_media_querie */
-
-  .span_1 {
-    width: 100%;
-    display: block;
-  }
-
-  button {
-    width: 100%;
-    display: block;
-  }
-
-  /*  ancre_button_section_2_trouvez_media_querie */
-
-  .ancre_1 {
-    width: 100%;
-    display: block;
-  }
-
-  .ancre_1 a {
     width: 100%;
     display: block;
   }
