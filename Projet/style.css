@@ -3,8 +3,6 @@
 /* body */
 
 body {
-  display: flex;
-  flex-direction: column;
   margin: 0;
   font-family: "Signika Negative", sans-serif;
 }
@@ -79,7 +77,7 @@ body {
 
 button {
   border-radius: 0 10px 10px 0;
-  color: rgb(42, 42, 168);
+  color: rgb(7, 7, 121);
 }
 
 /*  ancre_button_section_2_trouvez */
@@ -146,8 +144,6 @@ button {
   border-radius: 20px;
 }
 
-/* span_etoile_container_section_3 */
-
 /* ancre_afficher_plus_section_3_hebergement */
 
 .ancre_3 {
@@ -159,7 +155,7 @@ button {
 
 /* container_2_section_les_plus_populaire */
 
-.les_plus_populaire {
+.col_les_plus_populaire {
   width: 40%;
   display: flex;
   border-radius: 30px;
@@ -254,53 +250,181 @@ button {
 }
 
 @media screen and (max-width: 800px) {
-  .col_nav {
-    width: 100%;
+  body {
+    display: block;
   }
 
-  .box {
+  .container {
     width: 100%;
+    display: block;
   }
 
-  /* container_1_section_trouvez */
+  /* container_nav_media_querie */
 
-  .col_trouvez {
+  .ancre {
     width: 100%;
+    display: block;
   }
 
-  .box_1 {
+  /* icon_localisation_section_2_trouvez_media_querie */
+
+  .span {
     width: 100%;
+    display: block;
   }
 
-  /* container_2_section_hebergement */
+  /*span _rond_button_section_2_trouvez_media_querie */
+
+  .span_1 {
+    width: 100%;
+    display: block;
+  }
+
+  button {
+    width: 100%;
+    display: block;
+  }
+
+  /*  ancre_button_section_2_trouvez_media_querie */
+
+  .ancre_1 {
+    width: 100%;
+    display: block;
+  }
+
+  .ancre_1 a {
+    width: 100%;
+    display: block;
+  }
+
+  /* section_3_container_Hebergement_media_querie */
+
+  .container_2 {
+    width: 100%;
+    display: block;
+  }
 
   .col_hebergement {
     width: 100%;
+    display: block;
   }
 
-  /* container_2_section_les_plus_populaire */
+  /* section_3_box_hebergement_media_querie */
+
+  .box_2 {
+    width: 100%;
+    display: block;
+  }
+
+  .box_2 > div {
+    width: 100%;
+    display: block;
+  }
+
+  /* h2_section_3_hebergement_media_querie */
+
+  .h2_1 {
+    width: 100%;
+    display: block;
+  }
+
+  .article_1 {
+    width: 100%;
+    display: block;
+  }
+
+  .ancre_3 {
+  }
+
+  /* container_2_section_les_plus_populaire_media_querie */
 
   .col_les_plus_populaire {
     width: 100%;
+    display: block;
   }
 
   .box_3 {
     width: 100%;
+    display: block;
   }
 
-  /* container_3_section_activite */
-
-  .col_activite {
+  .box_3 > div {
     width: 100%;
+    display: block;
+  }
+
+  /* h2_section_les_plus_populaire_media_querie */
+
+  .h2_2 {
+    width: 100%;
+    display: block;
+  }
+
+  .article_2 {
+    width: 100%;
+    display: block;
+  }
+
+  .article_2 > .img_2 {
+    width: 100%;
+    display: block;
+  }
+
+  /* section_4_box_activite_media_querie */
+
+  .container_3 {
+    width: 100%;
+    display: block;
   }
 
   .box_4 {
     width: 100%;
+    display: block;
   }
 
-  /* container_4_section_footer */
-
-  [class*="col-"] {
+  .box_4 > div {
     width: 100%;
+    display: block;
+  }
+
+  /* h2_section_activite_media_querie */
+
+  .h2_activite {
+    width: 100%;
+    display: block;
+  }
+
+  /* section_4_aticle_activite_media_querie */
+
+  .article_3 {
+    width: 100%;
+    display: block;
+  }
+
+  .article_3 > .img_3 {
+    width: 100%;
+    display: block;
+  }
+
+  .article_4 {
+    width: 100%;
+    display: block;
+  }
+
+  .article_4 > .img_4 {
+    width: 100%;
+    display: block;
+  }
+
+  /* container_4_box_section_footer_media_querie */
+
+  .container_4 {
+    width: 100%;
+    display: block;
+  }
+
+  .box_5 {
+    width: 100%;
+    display: block;
   }
 }
