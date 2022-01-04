@@ -147,7 +147,38 @@ button {
 .img_1 {
   width: 100%;
   height: 150px;
-  border-radius: 20px;
+  border-radius: 20px 20px 0 0;
+  object-fit: cover;
+}
+.img_2 {
+  width: 100%;
+  height: 150px;
+  border-radius: 20px 20px 0 0;
+  object-fit: cover;
+}
+.img_3 {
+  width: 100%;
+  height: 150px;
+  border-radius: 20px 20px 0 0;
+  object-fit: cover;
+}
+.img_4 {
+  width: 100%;
+  height: 150px;
+  border-radius: 20px 20px 0 0;
+  object-fit: cover;
+}
+.img_5 {
+  width: 100%;
+  height: 150px;
+  border-radius: 20px 20px 0 0;
+  object-fit: cover;
+}
+.img_6 {
+  width: 100%;
+  height: 150px;
+  border-radius: 20px 20px 0 0;
+  object-fit: cover;
 }
 
 /*-----ancre_afficher_plus_container_2_section_3_hebergement-----*/
@@ -193,9 +224,9 @@ button {
 }
 
 .article_2 > .img_2 {
-  object-fit: contain;
-  object-position: left;
-  width: 25%;
+  object-fit: cover;
+  object-position: 0% -50%;
+  width: 30%;
   height: 150px;
   border-radius: 10px;
 }
