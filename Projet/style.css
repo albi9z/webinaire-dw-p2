@@ -69,10 +69,13 @@ body {
 /*-----barre_de_recherche_container_1_section_2_trouvez-----*/
 
 form {
-  border: solid gray 2px;
-  display: inline;
+  display: inline-flex;
   border-radius: 12px 12px;
   padding: 0 0 3px;
+  border: solid gray 2px;
+}
+
+.form > div {
 }
 
 .span {
@@ -109,6 +112,7 @@ button {
 
 .col_hebergement {
   display: flex;
+  margin: 10px;
 }
 
 .box_2 {
@@ -117,7 +121,7 @@ button {
   border-radius: 30px;
   background: rgb(240, 240, 240);
   width: 60%;
-  margin: 20px 10px 30px 10px;
+  margin: 10px;
 }
 
 .box_2 > div {
@@ -163,12 +167,13 @@ button {
 }
 
 .box_3 {
+  height: 98%;
   display: flex;
   flex-direction: column;
   border-radius: 30px;
   justify-content: space-evenly;
   background: rgb(240, 240, 240);
-  margin: 20px 10px 30px 10px;
+  margin: 10px;
 }
 
 .box_3 > div {
@@ -188,6 +193,8 @@ button {
 }
 
 .article_2 > .img_2 {
+  object-fit: contain;
+  object-position: left;
   width: 25%;
   height: 150px;
   border-radius: 10px;
@@ -196,11 +203,11 @@ button {
 /*-----container_3_section_4_activite-----*/
 
 .box_4 {
-  display: flex;
-  height: 900px;
+  display: inline-flex;
 }
 
 .box_4 > div {
+  width: 25%;
   padding: 10px;
 }
 
