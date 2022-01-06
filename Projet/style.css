@@ -63,6 +63,8 @@ body {
   margin: 10px;
 }
 
+/*-----ancre_hebergment_/_activite-----*/
+
 .box > div {
   text-align: end;
 }
@@ -73,8 +75,8 @@ a {
 
 /*--------container_1_section_2--------- */
 
-.container_1 > p {
-  color: #dadada;
+.box_1 > p {
+  color: #a2a2a2;
 }
 
 /*-----barre_de_recherche_container_1_section_2_trouvez-----*/
@@ -119,7 +121,7 @@ button {
   margin-bottom: -2px;
 }
 
-/*-----ancre_button_section_2_trouvez-----*/
+/*-----ancre_#_section_2_trouvez-----*/
 
 .ancre_1 {
   margin: 10px;
@@ -170,6 +172,10 @@ button {
   border-radius: 30px;
 }
 
+.article_1 > div {
+  margin: 10px;
+}
+
 .img_1 {
   width: 100%;
   height: 120px;
@@ -198,7 +204,7 @@ button {
 }
 
 .box_3 {
-  height: 98%;
+  height: 97%;
   display: flex;
   flex-direction: column;
   border-radius: 30px;
@@ -226,6 +232,12 @@ button {
   border-radius: 20px;
   border: solid rgb(255, 255, 255) 5px;
   width: 100%;
+  height: 150px;
+}
+
+.article_2 > div {
+  margin: 10px;
+  padding: 5px;
 }
 
 .article_2 > .img_2 {
@@ -261,8 +273,8 @@ button {
 
 .article_3 > .img_3 {
   width: 100%;
-  height: 80%;
-  border-radius: 20px;
+  height: 85%;
+  border-radius: 10px 10px 0px 0px;
   object-fit: cover;
   object-position: -15px;
 }
@@ -270,14 +282,21 @@ button {
 .article_4 {
   box-shadow: 10px 10px 5px rgb(240, 240, 240);
   background-color: rgb(255, 255, 255);
-  border-radius: 20px;
-  height: 45%;
+  border-radius: 10%;
+  height: 44%;
 }
 
 .article_4 > .img_4 {
   width: 100%;
-  border-radius: 20px;
+  border-radius: 10px 10px 0px 0px;
   object-fit: cover;
+  height: 150px;
+}
+.article_4 > .img_5 {
+  width: 100%;
+  border-radius: 10px 10px 0px 0px;
+  object-fit: cover;
+  object-position: top;
   height: 150px;
 }
 
