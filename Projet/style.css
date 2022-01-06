@@ -172,13 +172,9 @@ button {
 
 .img_1 {
   width: 100%;
-  height: 150px;
+  height: 120px;
   border-radius: 20px 20px 0 0;
   object-fit: cover;
-}
-
-i {
-  color: #1066fc;
 }
 
 .i_g {
@@ -233,10 +229,11 @@ i {
 }
 
 .article_2 > .img_2 {
-  object-position: bottom;
   border-radius: 10px 0 0 10px;
   width: 30%;
   height: 150px;
+  object-fit: cover;
+  object-position: -15px;
 }
 
 /*-----container_3_section_4_activite-----*/
@@ -266,6 +263,8 @@ i {
   width: 100%;
   height: 80%;
   border-radius: 20px;
+  object-fit: cover;
+  object-position: -15px;
 }
 
 .article_4 {
@@ -277,8 +276,9 @@ i {
 
 .article_4 > .img_4 {
   width: 100%;
-  height: 80%;
   border-radius: 20px;
+  object-fit: cover;
+  height: 150px;
 }
 
 /*-----container_4_section_5_footer-----*/
