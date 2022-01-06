@@ -1,10 +1,14 @@
-@import url("https://fonts.googleapis.com/css2? family= Cabin & family= Nunito &famille= Signika+Négatif & display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Cabin&family=Nunito&family=Signika+Negative&display=swap");
 
 /* body */
 
-body {
+* {
   margin: 0;
-  font-family: "Signika Negative", sans-serif;
+  padding: 0;
+}
+
+body {
+  font-family: "Cabin", sans-serif;
 }
 
 /* column*/
@@ -59,49 +63,71 @@ body {
   margin: 10px;
 }
 
-.ancre {
+.box > div {
   text-align: end;
-  line-height: 2;
+}
+
+a {
+  text-decoration: none;
 }
 
 /*--------container_1_section_2--------- */
+
+.container_1 > p {
+  color: #dadada;
+}
 
 /*-----barre_de_recherche_container_1_section_2_trouvez-----*/
 
 form {
   display: inline-flex;
   border-radius: 12px 12px;
-  padding: 0 0 3px;
-  border: solid gray 2px;
-}
-
-.form > div {
 }
 
 .span {
-  background-color: rgb(220, 220, 220);
-  border-radius: 5px 0 0 5px;
+  background: #f2f2f2;
+  align-items: center;
+  padding: 10px 14px;
+  display: flex;
+  border-radius: 10px 0 0 10px;
+}
+
+form > input {
+  border: none;
+  padding: 0 14px;
+  display: flex;
 }
 
 button {
+  padding: 10px;
   border-radius: 0 10px 10px 0;
-  color: rgb(7, 7, 121);
+  border: none;
+  background: blue;
+  color: white;
 }
 
 .span_1 {
-  background-color: rgb(35, 143, 143);
-  border-radius: 10px;
+  background: #deebff;
+  border-radius: 20px;
+  width: 30px;
+  height: 30px;
+  display: inline-flex;
+  justify-content: center;
+  align-items: center;
+  margin-left: -7px;
+  margin-top: -2px;
+  margin-bottom: -2px;
 }
 
 /*-----ancre_button_section_2_trouvez-----*/
 
 .ancre_1 {
   margin: 10px;
-  pad: 10px;
+  padding: 10px;
 }
 
 .ancre_1 a {
-  border: solid 2px rgb(167, 167, 167);
+  border: solid 2px #dadada;
   padding: 0px 5px;
   border-radius: 15px;
   margin-right: 20px;
@@ -146,39 +172,17 @@ button {
 
 .img_1 {
   width: 100%;
-  height: 120px;
+  height: 150px;
   border-radius: 20px 20px 0 0;
   object-fit: cover;
 }
-.img_2 {
-  width: 100%;
-  height: 120px;
-  border-radius: 20px 20px 0 0;
-  object-fit: cover;
+
+i {
+  color: #1066fc;
 }
-.img_3 {
-  width: 100%;
-  height: 120px;
-  border-radius: 20px 20px 0 0;
-  object-fit: cover;
-}
-.img_4 {
-  width: 100%;
-  height: 120px;
-  border-radius: 20px 20px 0 0;
-  object-fit: cover;
-}
-.img_5 {
-  width: 100%;
-  height: 120px;
-  border-radius: 20px 20px 0 0;
-  object-fit: cover;
-}
-.img_6 {
-  width: 100%;
-  height: 120px;
-  border-radius: 20px 20px 0 0;
-  object-fit: cover;
+
+.i_g {
+  color: rgb(220, 220, 220);
 }
 
 /*-----ancre_afficher_plus_container_2_section_3_hebergement-----*/
@@ -215,20 +219,24 @@ button {
   margin: 20px;
 }
 
+.h2_2 > i {
+  float: right;
+}
+
 .article_2 {
   box-shadow: 10px 10px 5px rgb(230, 230, 230);
-  display: flex;
+  display: inline-flex;
   background-color: whitesmoke;
   border-radius: 20px;
   border: solid rgb(255, 255, 255) 5px;
+  width: 100%;
 }
 
 .article_2 > .img_2 {
-  object-fit: cover;
-  object-position: 0% -50%;
+  object-position: bottom;
+  border-radius: 10px 0 0 10px;
   width: 30%;
   height: 150px;
-  border-radius: 10px;
 }
 
 /*-----container_3_section_4_activite-----*/
