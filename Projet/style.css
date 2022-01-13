@@ -59,14 +59,22 @@ body {
 
 /*-----container_section_1_nav-----*/
 
+.box{
+  display: flex;
+}
+
 .nav {
   height: 50px;
   margin: 10px;
 }
 .lien_nav{
-  margin-left: 1000px;
+  margin-left: auto;
 }
 
+.lien_nav_1{
+  margin-left: 100px;
+  margin-right: 50px;
+}
 
 /*-----ancre_hebergment_/_activite_nav-----*/
 
@@ -114,7 +122,21 @@ button {
 /*-----filtre_container_2_trouvez-----*/
 
 strong{
-  margin: 20px;
+  margin-right: 20px;
+  margin-left: -20px;
+}
+
+.fa-money-bill-wave {
+  color: #0065fc;
+}
+.fa-child {
+  color: #0065fc;
+}
+.fa-heart {
+  color: #0065fc;
+}
+.fa-dog {
+  color: #0065fc;
 }
 
 .span_1 {
@@ -125,21 +147,23 @@ strong{
   display: inline-flex;
   justify-content: center;
   align-items: center;
-  margin-left: -13px;
-  margin-top: -15px;
-  margin-bottom: -15px;
+  margin-left: -11px;
+  margin-top: -12px;
+  margin-bottom: -12px;
 }
 
 /*-----icon_i_container_2_trouvez-----*/
 
 .span_2{
-  margin: 10px;
+  display: inline-flex;
+  margin-right: 5px;
   background-color: red;
   border: solid black 1px;
-  border-radius: 10px;
-  width: 45px;
-  height: 45px;
-
+  justify-content: center;
+  align-items: center;
+  border-radius: 100%;
+  width: 15px;
+  height: 20px;
 }
 
 /*-----ancre_#_section_2_trouvez-----*/
@@ -193,7 +217,7 @@ strong{
 }
 
 .article_1 {
-  box-shadow: 10px 10px 5px rgb(230, 230, 230);
+  box-shadow: 5px 5px 5px rgb(230, 230, 230);
   background-color: rgb(255, 255, 255);
   border: solid rgb(255, 255, 255) 5px;
   border-radius: 30px;
@@ -265,7 +289,7 @@ a article div p span{
 }
 
 .article_2 {
-  box-shadow: 10px 10px 5px rgb(230, 230, 230);
+  box-shadow: 5px 5px 5px rgb(230, 230, 230);
   display: inline-flex;
   border-radius: 20px;
   border: solid rgb(255, 255, 255) 5px;
@@ -300,18 +324,18 @@ a article div p span{
 
 .h2_3 {
   width: 100%;
-  margin: 10px;
+  margin-left: 20px;
 }
 
 .box_4 h3{
   margin: 10px;
-  padding: 15px;
+  padding: 10px;
 }
 
 /*----- vieux_port-----*/
 
 .article_3 {
-  box-shadow: 20px 20px 5px rgb(240, 240, 240);
+  box-shadow: 5px 5px 5px rgb(240, 240, 240);
   background-color: rgb(255, 255, 255);
   border-radius: 20px;
   width: 100%;
@@ -326,7 +350,7 @@ a article div p span{
 /*-----fort_de_pomègues-----*/
 
 .article_4 {
-  box-shadow: 20px 20px 5px rgb(240, 240, 240);
+  box-shadow: 5px 5px 5px rgb(240, 240, 240);
   background-color: rgb(255, 255, 255);
   border-radius: 10%;
   width: 100%;
@@ -342,7 +366,7 @@ a article div p span{
 /*-----îles_du_frioul-----*/
 
 .article_5 {
-  box-shadow: 20px 20px 5px rgb(240, 240, 240);
+  box-shadow: 5px 5px 5px rgb(240, 240, 240);
   background-color: rgb(255, 255, 255);
   border-radius: 10%;
   width: 100%;
@@ -359,7 +383,7 @@ a article div p span{
 /*-----parc_national_des_calanques-----*/
 
 .article_6 {
-  box-shadow: 20px 20px 5px rgb(240, 240, 240);
+  box-shadow: 5px 5px 5px rgb(240, 240, 240);
   background-color: rgb(255, 255, 255);
   border-radius: 10%;
   width: 100%;
@@ -376,7 +400,7 @@ a article div p span{
 /*-----nôtre_dame_de_la_garde-----*/
 
 .article_7 {
-  box-shadow: 20px 20px 5px rgb(240, 240, 240);
+  box-shadow: 5px 5px 5px rgb(240, 240, 240);
   background-color: rgb(255, 255, 255);
   border-radius: 10%;
   width: 100%;
@@ -393,7 +417,7 @@ a article div p span{
 /*-----parc_longchamps-----*/
 
 .article_8 {
-  box-shadow: 20px 20px 5px rgb(240, 240, 240);
+  box-shadow: 5px 5px 5px rgb(240, 240, 240);
   background-color: rgb(255, 255, 255);
   border-radius: 10%;
   width: 100%;
@@ -410,11 +434,14 @@ a article div p span{
 /*-----container_4_section_5_footer-----*/
 
 .box_5 {
+  padding: 10px;
+  margin: -20px;
   background-color: rgb(240, 240, 240);
   display: flex;
 }
 
 .box_5 > div {
+  margin: 30px;
   display: grid;
   width: 33.3%;
 }
