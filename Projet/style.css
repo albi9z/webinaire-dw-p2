@@ -65,8 +65,10 @@ body {
   height: 50px;
   margin: 10px;
 }
-.lien_nav{
+
+.lien_nav {
   margin-left: auto;
+  color: #0065fc;
 }
 
 .lien_nav_1{
@@ -108,7 +110,7 @@ button {
   border-radius: 0 10px 10px 0;
   border: none;
   background: #0065fc;
-  color: white;
+  color: #ffffff;
 }
 
 /*-----filtre_container_2_trouvez-----*/
@@ -210,8 +212,8 @@ strong{
 
 .article_1 {
   box-shadow: 5px 5px 5px rgb(230, 230, 230);
-  background-color: rgb(255, 255, 255);
-  border: solid rgb(255, 255, 255) 5px;
+  background-color: #ffffff;
+  border: solid #ffffff 5px;
   border-radius: 30px;
 }
 
@@ -231,7 +233,7 @@ a article div p span{
 }
 
 .fa-star.off {
-  color: grey;
+  color: #606060;
 }
 
 .fa-star {
@@ -274,6 +276,7 @@ a article div p span{
 
 #activite {
   margin: 20px;
+  padding: 20px;
 }
 
 #activite > i {
@@ -284,10 +287,11 @@ a article div p span{
   box-shadow: 5px 5px 5px rgb(230, 230, 230);
   display: inline-flex;
   border-radius: 20px;
-  border: solid rgb(255, 255, 255) 5px;
-  height: 150px;
-  width: 90%;
-  background-color: white;
+  border: solid #ffffff 5px;
+  height: 190px;
+  width: 85%;
+  background-color: #ffffff;
+  margin-left: 40px;
 }
 
 .article_2 > div {
@@ -298,9 +302,54 @@ a article div p span{
 .article_2 > .img_2 {
   border-radius: 10px 0 0 10px;
   width: 30%;
-  height: 150px;
+  height: 190px;
   object-fit: cover;
-  object-position: -15px;
+}
+
+.article_2-1 {
+  box-shadow: 5px 5px 5px rgb(230, 230, 230);
+  display: inline-flex;
+  border-radius: 20px;
+  border: solid #ffffff 5px;
+  height: 190px;
+  width: 85%;
+  background-color: #ffffff;
+  margin-left: 40px;
+}
+
+.article_2-1 > div {
+  margin: 10px;
+  padding: 5px;
+}
+
+.article_2-1 > .img_2-1 {
+  border-radius: 10px 0 0 10px;
+  width: 30%;
+  height: 190px;
+  object-fit: cover;
+}
+
+.article_2-2 {
+  box-shadow: 5px 5px 5px rgb(230, 230, 230);
+  display: inline-flex;
+  border-radius: 20px;
+  border: solid #ffffff 5px;
+  height: 190px;
+  width: 85%;
+  background-color: #ffffff;
+  margin-left: 40px;
+}
+
+.article_2-2 > div {
+  margin: 10px;
+  padding: 5px;
+}
+
+.article_2-2 > .img_2-2 {
+  border-radius: 10px 0 0 10px;
+  width: 30%;
+  height: 190px;
+  object-fit: cover;
 }
 
 /*-----container_3_section_4_activite-----*/
@@ -418,7 +467,7 @@ a article div p span{
 .article_8 > .img_8 {
   border-radius: 20px 20px 0px 0px;
   object-fit: cover;
-  object-position: 0px -22px;
+  object-position: 0px -55px;
   width: 100%;
   height: 140px;
 }
@@ -535,6 +584,24 @@ a article div p span{
   }
 
   .article_2 > .img_2 {
+    width: 100%;
+    display: block;
+  }
+  .article_2-1 {
+    width: 100%;
+    display: block;
+  }
+
+  .article_2-1 > .img_2-1 {
+    width: 100%;
+    display: block;
+  }
+  .article_2-2 {
+    width: 100%;
+    display: block;
+  }
+
+  .article_2-2 > .img_2-2 {
     width: 100%;
     display: block;
   }
