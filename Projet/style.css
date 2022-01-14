@@ -127,8 +127,8 @@ button {
 
 /*-----filtre_container_2_trouvez-----*/
 
-strong{
-  margin-right: 20px;
+.filtre_1{
+  margin: 20px;
   margin-left: -20px;
 }
 
@@ -290,17 +290,18 @@ a article div p span{
   margin: 10px;
 }
 
-.box_3 > div {
-  padding: 15px;
-}
-
 .box_3 > .p > .span {
   color: #dadada;
 }
 
-#activite {
+.box_3 > div{
   padding: 20px;
+}
+#activite {
+  padding: 3px;
   font-weight: bolder;
+  margin-right: 60px;
+  margin-left: 50px;
 }
 
 #activite > i {
@@ -313,7 +314,10 @@ a article div p span{
   border-radius: 20px;
   border: solid #ffffff 5px;
   background-color: #ffffff;
-  height: 150px;
+  height: 140px;
+  width: 80%;
+  margin-left: 40px;
+  margin-right: 40px;
 }
 
 .article_2 > div {
@@ -324,7 +328,7 @@ a article div p span{
 .article_2 > .img_2 {
   border-radius: 10px 0 0 10px;
   width: 30%;
-  height: 150px;
+  height: 140px;
   object-fit: cover;
 }
 
@@ -334,7 +338,10 @@ a article div p span{
   border-radius: 20px;
   border: solid #ffffff 5px;
   background-color: #ffffff;
-  height: 150px;
+  height: 140px;
+  width: 80%;
+  margin-left: 40px;
+  margin-right: 40px;
 }
 
 .article_2-1 > div {
@@ -345,7 +352,7 @@ a article div p span{
 .article_2-1 > .img_2-1 {
   border-radius: 10px 0 0 10px;
   width: 30%;
-  height: 150px;
+  height: 140px;
   object-fit: cover;
 }
 
@@ -355,7 +362,10 @@ a article div p span{
   border-radius: 20px;
   border: solid #ffffff 5px;
   background-color: #ffffff;
-  height: 150px;
+  height: 140px;
+  width: 80%;
+  margin-left: 40px;
+  margin-right: 40px;
 }
 
 .article_2-2 > div {
@@ -366,7 +376,7 @@ a article div p span{
 .article_2-2 > .img_2-2 {
   border-radius: 10px 0 0 10px;
   width: 30%;
-  height: 150px;
+  height: 140px;
   object-fit: cover;
 }
 
