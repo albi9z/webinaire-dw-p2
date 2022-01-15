@@ -68,13 +68,13 @@ body {
 }
 
 .lien_nav {
-  margin-top: 10px;
+  margin-top: 15px;
   margin-left: auto;
   color: #0065fc;
 }
 
 .lien_nav_1{
-  margin-top: 10px;
+  margin-top: 15px;
   margin-left: 100px;
   margin-right: 50px;
 }
@@ -130,6 +130,11 @@ button {
 .filtre_1{
   margin: 20px;
   margin-left: -20px;
+  font-weight: bolder;
+}
+
+strong{
+  margin: 10px;
 }
 
 .fa-money-bill-wave {
@@ -202,7 +207,7 @@ button {
   border-radius: 30px;
   background: rgb(240, 240, 240);
   width: 60%;
-  margin: 10px;
+  margin: 8px;
 }
 
 .box_2 > div {
@@ -220,6 +225,7 @@ button {
   width: 100%;
   height: 28px;
   margin: 20px;
+  padding: 10px;
   font-weight: bolder;
 }
 
@@ -297,8 +303,9 @@ a article div p span{
 .box_3 > div{
   padding: 20px;
 }
+
 #activite {
-  padding: 3px;
+  padding: 10px;
   font-weight: bolder;
   margin-right: 60px;
   margin-left: 50px;
@@ -321,85 +328,42 @@ a article div p span{
 }
 
 .article_2 > div {
-  margin: 10px;
+  margin: 20px;
   padding: 5px;
-  margin-top: -10px;
+  margin-top: -5px;
 }
 
 .article_2 > .img_2 {
   border-radius: 10px 0 0 10px;
-  width: 30%;
-  height: 140px;
-  object-fit: cover;
-}
-
-.article_2-1 {
-  box-shadow: 5px 5px 5px rgb(230, 230, 230);
-  display: inline-flex;
-  border-radius: 20px;
-  border: solid #ffffff 5px;
-  background-color: #ffffff;
-  height: 140px;
-  width: 80%;
-  margin-left: 40px;
-  margin-right: 40px;
-}
-
-.article_2-1 > div {
-  margin: 10px;
-  padding: 5px;
-  margin-top: -10px;
-}
-
-.article_2-1 > .img_2-1 {
-  border-radius: 10px 0 0 10px;
-  width: 30%;
-  height: 140px;
-  object-fit: cover;
-}
-
-.article_2-2 {
-  box-shadow: 5px 5px 5px rgb(230, 230, 230);
-  display: inline-flex;
-  border-radius: 20px;
-  border: solid #ffffff 5px;
-  background-color: #ffffff;
-  height: 140px;
-  width: 80%;
-  margin-left: 40px;
-  margin-right: 40px;
-}
-
-.article_2-2 > div {
-  margin: 10px;
-  padding: 5px;
-  margin-top: -10px;
-}
-
-.article_2-2 > .img_2-2 {
-  border-radius: 10px 0 0 10px;
-  width: 30%;
+  width: 40%;
   height: 140px;
   object-fit: cover;
 }
 
 .pc2_1{
-  height: 20px;
-}
-.pc2_2{
   height: 30px;
+  font-weight: bolder;
 }
+.pc2_2 {
+  height: 40px;
+}
+
 .pc2_3{
+  font-weight: bolder;
   height: 30px;
 }
-.pc2_4{
-  height: 30px;
+
+.pc2_4 {
+  height: 40px;
 }
-.pc2_6{
+
+.pc2_5{
   height: 30px;
+  font-weight: bolder;
 }
-.pc2_6{
-  height: 30px;
+
+.pc2_6 {
+  height: 40px;
 }
 
 /*-----container_3_section_4_activite-----*/
@@ -437,7 +401,7 @@ a article div p span{
   border-radius: 20px 20px 0px 0px;
   object-fit: cover;
   width: 100%;
-  height: 345px;
+  height: 350px;
 }
 /*-----fort_de_pomègues-----*/
 
@@ -469,7 +433,7 @@ a article div p span{
   object-fit: cover;
   object-position: top;
   width: 100%;
-  height: 130px ;
+  height: 150px ;
 }
 
 /*-----parc_national_des_calanques-----*/
@@ -486,7 +450,7 @@ a article div p span{
   object-fit: cover;
   object-position: center top;
   width: 100%;
-  height: 345px;
+  height: 350px;
 }
 
 /*-----nôtre_dame_de_la_garde-----*/
@@ -503,7 +467,7 @@ a article div p span{
   object-fit: cover;
   object-position: top;
   width: 100%;
-  height: 140px;
+  height: 150px;
 }
 
 /*-----parc_longchamps-----*/
@@ -518,9 +482,9 @@ a article div p span{
 .article_8 > .img_8 {
   border-radius: 20px 20px 0px 0px;
   object-fit: cover;
-  object-position: 0px -55px;
+  object-position: 0px -41px;
   width: 100%;
-  height: 140px;
+  height: 150px;
 }
 
 /*-----container_4_section_5_footer-----*/
