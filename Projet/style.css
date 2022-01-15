@@ -502,203 +502,458 @@ a article div p span{
 }
 
 @media screen and (max-width: 992px) {
-  body {
-    display: block;
-    width: 100%;
-  }
 
-  .container {
-    width: 100%;
-    display: block;
-  }
+  /* container central 1 */
 
-  /* container_nav_media_querie */
+.container {
+  width: 100%;
+}
 
-  .box{
-    width: 100%;
-    display: block;
-  }
+/*-----container_section_1_nav-----*/
 
-  .nav {
-    width: 100%;
-    display: block;
-  }
+.box{
+  display: block;
+}
 
-  .ancre {
-    width: 100%;
-    display: block;
-  }
+.nav {
+  height: 50px;
+  margin: 20px;
+  padding: 20px;
+}
 
-  /* section_3_container_Hebergement_media_querie */
+.lien_nav {
+  margin-left: auto;
+  color: #0065fc;
+}
 
-  .container_2 {
-    width: 100%;
-    display: block;
-  }
+.lien_nav_1{
+  margin-left: 100px;
+  margin-right: 50px;
+}
 
-  .col_hebergement {
-    width: 100%;
-    display: block;
-  }
+/*-----ancre_hebergment_/_activite_nav-----*/
 
-  /* section_3_box_hebergement_media_querie */
+a { 
+  color: black;
+  text-decoration: none;
+}
 
-  .box_2 {
-    width: 100%;
-    display: block;
-  }
+/*-----barre_de_recherche_container_1_section_2_trouvez-----*/
 
-  .box_2 > div {
-    width: 100%;
-    display: block;
-  }
+.container_1{
+  margin: 10px;
+  padding: 5px;
+}
 
-  /* h2_section_3_hebergement_media_querie */
+.box_1{
+  margin: 20px;
+}
 
-  .h2_1 {
-    width: 100%;
-    display: block;
-  }
+form {
+  display: inline-flex;
+  border-radius: 11px;
+  border: solid #f2f2f2 1px;
+}
 
-  .article_1 {
-    width: 100%;
-    display: block;
-  }
+.span {
+  background: #f2f2f2;
+  align-items: center;
+  padding: 10px 14px;
+  display: flex;
+  border-radius: 10px 0 0 10px;
+}
 
-  .ancre_3 {
-  }
+form > input {
+  border: none;
+  padding: 0 14px;
+  display: flex;
+}
 
-  /* container_2_section_les_plus_populaire_media_querie */
+button {
+  padding: 10px;
+  border-radius: 0 10px 10px 0;
+  border: none;
+  background: #0065fc;
+  color: #ffffff;
+}
 
-  .col_les_plus_populaire {
-    width: 100%;
-    display: block;
-  }
+/*-----filtre_container_2_trouvez-----*/
 
-  .box_3 {
-    width: 100%;
-    display: block;
-  }
+.filtre_1{
+  margin: 20px;
+  margin-left: -20px;
+  font-weight: bolder;
+}
 
-  .box_3 > div {
-    width: 100%;
-    display: block;
-  }
+strong{
+  margin: 10px;
+}
 
-  /* h2_section_les_plus_populaire_media_querie */
+.fa-money-bill-wave {
+  color: #0065fc;
+}
+.fa-child {
+  color: #0065fc;
+}
+.fa-heart {
+  color: #0065fc;
+}
+.fa-dog {
+  color: #0065fc;
+}
 
-  .h2_2 {
-    width: 100%;
-    display: block;
-  }
+.span_1 {
+  background: #deebff;
+  border-radius: 20px;
+  width: 45px;
+  height: 45px;
+  display: inline-flex;
+  justify-content: center;
+  align-items: center;
+  margin-left: -11px;
+  margin-top: -12px;
+  margin-bottom: -12px;
+}
 
-  .article_2 {
-    width: 100%;
-    display: block;
-  }
+/*-----icon_i_container_2_trouvez-----*/
 
-  .article_2 > .img_2 {
-    width: 100%;
-    display: block;
-  }
-  .article_2-1 {
-    width: 100%;
-    display: block;
-  }
+.span_2{
+  color: #0065fc;
+  display: inline-flex;
+  margin-right: 5px;
+  border: solid #d9d9d9 1px;
+  justify-content: center;
+  align-items: center;
+  border-radius: 100%;
+  width: 20px;
+  height: 20px;
+  font-weight: bolder;
+}
 
-  .article_2-1 > .img_2-1 {
-    width: 100%;
-    display: block;
-  }
-  .article_2-2 {
-    width: 100%;
-    display: block;
-  }
+/*-----ancre_#_section_2_trouvez-----*/
 
-  .article_2-2 > .img_2-2 {
-    width: 100%;
-    display: block;
-  }
+.ancre_1 {
+  margin: 15px;
+  padding: 10px;
+}
 
-  /* section_4_box_activite_media_querie */
+.ancre_1 a {
+  border: solid 2px #dadada;
+  padding: 10px 10px;
+  border-radius: 25px;
+  margin-right: 20px;
+  display: inline-block;
+}
 
-  .container_3 {
-    width: 100%;
-    display: block;
-  }
+/*-----container_2_section_3_hebergement-----*/
 
-  .box_4 {
-    width: 100%;
-    display: block;
-  }
+.col_hebergement {
+  display: flex;
+  margin: 10px;
+  
+}
 
-  .box_4 > div {
-    width: 100%;
-    display: block;
-  }
+.box_2 {
+  display: flex;
+  flex-wrap: wrap;
+  border-radius: 30px;
+  background: rgb(240, 240, 240);
+  width: 60%;
+  margin: 8px;
+}
 
-  /* h2_section_activite_media_querie */
+.box_2 > div {
+  width: 33%;
+  padding: 15px;
+  box-sizing: border-box;
+  border-radius: 30px;
+}
 
-  .h2_activite {
-    width: 100%;
-    display: block;
-  }
+.box_2 > p {
+  color: #dadada;
+}
 
-  /* section_4_aticle_activite_media_querie */
+#hebergement {
+  width: 100%;
+  height: 28px;
+  margin: 20px;
+  padding: 10px;
+  font-weight: bolder;
+}
 
-  .article_3 {
-    width: 100%;
-    display: block;
-  }
+.article_1 {
+  box-shadow: 5px 5px 5px rgb(230, 230, 230);
+  background-color: #ffffff;
+  border: solid #ffffff 5px;
+  border-radius: 30px;
+  height: 200px;
+}
 
-  .article_3 > .img_3 {
-    width: 100%;
-    display: block;
-  }
+.article_1 > div {
+  margin: 8px;
+  padding: 5px;
+}
 
-  .article_4 {
-    width: 100%;
-    display: block;
-  }
+.img_1 {
+  width: 100%;
+  height: 100px;
+  border-radius: 20px 20px 0 0;
+  object-fit: cover;
+}
 
-  .article_4 > .img_4 {
-    width: 100%;
-    display: block;
-  }
+a article div p span{
+  color: #606060;
+}
 
-  .article_5 {
-    width: 100%;
-    display: block;
-  }
+.fa-star.off {
+  color: #606060;
+}
 
-  .article_5 > .img_5 {
-    width: 100%;
-    display: block;
-  }
+.fa-star {
+  color: #0065fc;
+}
 
-  .article_6 {
-    width: 100%;
-    display: block;
-  }
+.p_1{
+ font-weight: bolder;
+ height: 10px;
+ margin: 2px;
+}
 
-  .article_66 > .img_6 {
-    width: 100%;
-    display: block;
-  }
+.p_2{
+  height: 10px;
+}
 
-  /* container_4_box_section_footer_media_querie */
 
-  .container_4 {
-    width: 100%;
-    display: block;
-  }
+/*-----ancre_afficher_plus_container_2_section_3_hebergement-----*/
 
-  .box_5 {
-    width: 100%;
-    display: block;
-  }
+.ancre_3 {
+  width: 100%;
+  padding: 20px;
+}
 
-  .box_5 > div{
-    width: 100%;
-    display: block;
-  }
+/*-----container_2_section_3_les_plus_populaire-----*/
+
+.col_les_plus_populaire {
+  width: 40%;
+  border-radius: 30px;
+}
+
+.box_3 {
+  height: 97%;
+  display: flex;
+  flex-direction: column;
+  border-radius: 30px;
+  justify-content: space-evenly;
+  background: rgb(240, 240, 240);
+  margin: 10px;
+}
+
+.box_3 > .p > .span {
+  color: #dadada;
+}
+
+.box_3 > div{
+  padding: 20px;
+}
+
+#activite {
+  padding: 10px;
+  font-weight: bolder;
+  margin-right: 60px;
+  margin-left: 50px;
+}
+
+#activite > i {
+  float: right;
+}
+
+.article_2 {
+  box-shadow: 5px 5px 5px rgb(230, 230, 230);
+  display: inline-flex;
+  border-radius: 20px;
+  border: solid #ffffff 5px;
+  background-color: #ffffff;
+  height: 140px;
+  width: 80%;
+  margin-left: 40px;
+  margin-right: 40px;
+}
+
+.article_2 > div {
+  margin: 20px;
+  padding: 5px;
+  margin-top: -5px;
+}
+
+.article_2 > .img_2 {
+  border-radius: 10px 0 0 10px;
+  width: 40%;
+  height: 140px;
+  object-fit: cover;
+}
+
+.pc2_1{
+  height: 30px;
+  font-weight: bolder;
+}
+.pc2_2 {
+  height: 40px;
+}
+
+.pc2_3{
+  font-weight: bolder;
+  height: 30px;
+}
+
+.pc2_4 {
+  height: 40px;
+}
+
+.pc2_5{
+  height: 30px;
+  font-weight: bolder;
+}
+
+.pc2_6 {
+  height: 40px;
+}
+
+/*-----container_3_section_4_activite-----*/
+
+.box_4 {
+  display: inline-flex;
+}
+
+.box_4 > div {
+  width: 25%;
+  padding: 20px;
+}
+
+.h2_3 {
+  width: 100%;
+  margin-left: 20px;
+}
+
+.p_4{
+  margin: 5px;
+  padding: 5px;
+  font-weight: bolder;
+}
+
+/*----- vieux_port-----*/
+
+.article_3 {
+  box-shadow: 5px 5px 5px rgb(240, 240, 240);
+  background-color: rgb(255, 255, 255);
+  border-radius: 20px;
+  width: 100%;
+}
+
+.article_3 > .img_3 {
+  border-radius: 20px 20px 0px 0px;
+  object-fit: cover;
+  width: 100%;
+  height: 333px;
+}
+/*-----fort_de_pomègues-----*/
+
+.article_4 {
+  box-shadow: 5px 5px 5px rgb(240, 240, 240);
+  background-color: rgb(255, 255, 255);
+  border-radius: 10%;
+  width: 100%;
+}
+
+.article_4 > .img_4 {
+  border-radius: 10px 10px 0px 0px;
+  object-fit: cover;
+  object-position: 0 -125px;
+  width: 100%;
+  height: 150px;
+}
+
+/*-----îles_du_frioul-----*/
+
+.article_5 {
+  box-shadow: 5px 5px 5px rgb(240, 240, 240);
+  background-color: rgb(255, 255, 255);
+  border-radius: 10%;
+  width: 100%;
+}
+
+.article_5 > .img_5 {
+  border-radius: 20px 20px 0px 0px;
+  object-fit: cover;
+  object-position: top;
+  width: 100%;
+  height: 120px ;
+}
+
+/*-----parc_national_des_calanques-----*/
+
+.article_6 {
+  box-shadow: 5px 5px 5px rgb(240, 240, 240);
+  background-color: rgb(255, 255, 255);
+  border-radius: 10%;
+  width: 100%;
+}
+
+.article_6 > .img_6 {
+  border-radius: 20px 20px 0px 0px;
+  object-fit: cover;
+  object-position: center top;
+  width: 100%;
+  height: 333px;
+}
+
+/*-----nôtre_dame_de_la_garde-----*/
+
+.article_7 {
+  box-shadow: 5px 5px 5px rgb(240, 240, 240);
+  background-color: rgb(255, 255, 255);
+  border-radius: 10%;
+  width: 100%;
+}
+
+.article_7 > .img_7 {
+  border-radius: 20px 20px 0px 0px;
+  object-fit: cover;
+  object-position: top;
+  width: 100%;
+  height: 135px;
+}
+
+/*-----parc_longchamps-----*/
+
+.article_8 {
+  box-shadow: 5px 5px 5px rgb(240, 240, 240);
+  background-color: rgb(255, 255, 255);
+  border-radius: 10%;
+  width: 100%;
+}
+
+.article_8 > .img_8 {
+  border-radius: 20px 20px 0px 0px;
+  object-fit: cover;
+  object-position: 0px -20px;
+  width: 100%;
+  height: 135px;
+}
+
+/*-----container_4_section_5_footer-----*/
+
+.box_5 {
+  padding: 10px;
+  margin: -20px;
+  background-color: rgb(240, 240, 240);
+  display: flex;
+}
+
+.box_5 > div {
+  margin-left: 30px;
+  display: grid;
+  width: 33.3%;
+}
+
+
+}
