@@ -507,7 +507,6 @@ a article div p span{
  flex-direction: column;
 }
 
-
 .nav {
  align-self: center;
 }
@@ -518,11 +517,6 @@ a article div p span{
 
 .lien_nav_1{
  display: contents;
-}
-
-/*-----ancre_hebergment_/_activite_nav-----*/
-
-a { 
 }
 
 /*-----barre_de_recherche_container_1_section_2_trouvez-----*/
@@ -538,42 +532,6 @@ a {
 }
 
 form {
-}
-
-.span {
-
-}
-
-form > input {
- 
-}
-
-button {
-
-}
-
-/*-----filtre_container_2_trouvez-----*/
-
-.filtre_1{
-
-}
-
-
-
-/*-----icon_i_container_2_trouvez-----*/
-
-.span_2{
-
-}
-
-/*-----ancre_#_section_2_trouvez-----*/
-
-.ancre_1 {
- 
-}
-
-.ancre_1 a {
-  
 }
 
 /*-----container_2_section_3_hebergement-----*/
@@ -594,11 +552,6 @@ button {
   width: 100%;
 }
 
-#hebergement {
-  display: block;
- width: 100%;
-}
-
 .article_1 {
  height: auto;
 }
@@ -610,17 +563,6 @@ button {
 .img_1{
   height: 150px;
 }
-
-.p_1{
- font-weight: bolder;
- height: 10px;
- margin: 2px;
-}
-
-.p_2{
-  height: 10px;
-}
-
 
 /*-----ancre_afficher_plus_container_2_section_3_hebergement-----*/
 
@@ -641,25 +583,13 @@ button {
  width: 100%;
 }
 
-.box_3 > .p > .span {
- 
-}
-
 .box_3 > div{
   display: block;
  width: 100%;
 }
 
-#activite {
- 
-}
-
-#activite > i {
-  float: right;
-}
-
 .article_2 {
-  display: block;
+ 
  width: 100%;
 }
 
@@ -669,29 +599,6 @@ button {
 }
 
 .article_2 > .img_2 {
-  
-}
-
-.pc2_1{
- 
-}
-.pc2_2 {
- 
-}
-
-.pc2_3{
- 
-}
-
-.pc2_4 {
-  
-}
-
-.pc2_5{
-
-}
-
-.pc2_6 {
   
 }
 
@@ -709,10 +616,6 @@ button {
 
 .h2_3 {
   width: 100%;
-  
-}
-
-.p_4{
   
 }
 
