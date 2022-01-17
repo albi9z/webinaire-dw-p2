@@ -6,9 +6,6 @@
   font-family: 'Raleway', sans-serif;
 }
 
-body {
-  margin: 20px;
-}
 
 /* column*/
 
@@ -68,6 +65,7 @@ body {
 }
 
 .lien_nav {
+  border-top: solid 1px;
   margin-left: auto;
   color: #0065fc;
 }
@@ -501,458 +499,86 @@ a article div p span{
   width: 33.3%;
 }
 
-@media screen and (max-width: 992px) {
+@media screen and (max-width: 768px) {
 
   /* container central 1 */
 
 .container {
+  display: block ;
   width: 100%;
 }
 
-/*-----container_section_1_nav-----*/
-
 .box{
-  display: block;
-}
-
-.nav {
-  height: 50px;
-  margin: 20px;
-  padding: 20px;
-}
-
-.lien_nav {
-  margin-left: auto;
-  color: #0065fc;
-}
-
-.lien_nav_1{
-  margin-left: 100px;
-  margin-right: 50px;
-}
-
-/*-----ancre_hebergment_/_activite_nav-----*/
-
-a { 
-  color: black;
-  text-decoration: none;
-}
-
-/*-----barre_de_recherche_container_1_section_2_trouvez-----*/
-
-.container_1{
-  margin: 10px;
-  padding: 5px;
-}
-
-.box_1{
-  margin: 20px;
+  display: flex;
+  flex-direction: column;
 }
 
 form {
-  display: inline-flex;
-  border-radius: 11px;
-  border: solid #f2f2f2 1px;
-}
-
-.span {
-  background: #f2f2f2;
-  align-items: center;
-  padding: 10px 14px;
-  display: flex;
-  border-radius: 10px 0 0 10px;
-}
-
-form > input {
-  border: none;
-  padding: 0 14px;
-  display: flex;
-}
-
-button {
-  padding: 10px;
-  border-radius: 0 10px 10px 0;
-  border: none;
-  background: #0065fc;
-  color: #ffffff;
-}
-
-/*-----filtre_container_2_trouvez-----*/
-
-.filtre_1{
-  margin: 20px;
-  margin-left: -20px;
-  font-weight: bolder;
-}
-
-strong{
-  margin: 10px;
-}
-
-.fa-money-bill-wave {
-  color: #0065fc;
-}
-.fa-child {
-  color: #0065fc;
-}
-.fa-heart {
-  color: #0065fc;
-}
-.fa-dog {
-  color: #0065fc;
-}
-
-.span_1 {
-  background: #deebff;
-  border-radius: 20px;
-  width: 45px;
-  height: 45px;
-  display: inline-flex;
-  justify-content: center;
-  align-items: center;
-  margin-left: -11px;
-  margin-top: -12px;
-  margin-bottom: -12px;
-}
-
-/*-----icon_i_container_2_trouvez-----*/
-
-.span_2{
-  color: #0065fc;
-  display: inline-flex;
-  margin-right: 5px;
-  border: solid #d9d9d9 1px;
-  justify-content: center;
-  align-items: center;
-  border-radius: 100%;
-  width: 20px;
-  height: 20px;
-  font-weight: bolder;
-}
-
-/*-----ancre_#_section_2_trouvez-----*/
-
-.ancre_1 {
-  margin: 15px;
-  padding: 10px;
-}
-
-.ancre_1 a {
-  border: solid 2px #dadada;
-  padding: 10px 10px;
-  border-radius: 25px;
-  margin-right: 20px;
-  display: inline-block;
+  width: 100%;
 }
 
 /*-----container_2_section_3_hebergement-----*/
 
+.container_2{
+  display: block;
+  width: 100%;
+}
+
 .col_hebergement {
-  display: flex;
-  margin: 10px;
-  
+  display: block;
+  width: 100%;
 }
 
 .box_2 {
-  display: flex;
-  flex-wrap: wrap;
-  border-radius: 30px;
-  background: rgb(240, 240, 240);
-  width: 60%;
-  margin: 8px;
+  display: block;
+  width: 100%;
 }
 
 .box_2 > div {
-  width: 33%;
-  padding: 15px;
-  box-sizing: border-box;
-  border-radius: 30px;
-}
-
-.box_2 > p {
-  color: #dadada;
-}
-
-#hebergement {
+  display: block;
   width: 100%;
-  height: 28px;
-  margin: 20px;
-  padding: 10px;
-  font-weight: bolder;
-}
-
-.article_1 {
-  box-shadow: 5px 5px 5px rgb(230, 230, 230);
-  background-color: #ffffff;
-  border: solid #ffffff 5px;
-  border-radius: 30px;
-  height: 200px;
-}
-
-.article_1 > div {
-  margin: 8px;
-  padding: 5px;
-}
-
-.img_1 {
-  width: 100%;
-  height: 100px;
-  border-radius: 20px 20px 0 0;
-  object-fit: cover;
-}
-
-a article div p span{
-  color: #606060;
-}
-
-.fa-star.off {
-  color: #606060;
-}
-
-.fa-star {
-  color: #0065fc;
-}
-
-.p_1{
- font-weight: bolder;
- height: 10px;
- margin: 2px;
-}
-
-.p_2{
-  height: 10px;
-}
-
-
-/*-----ancre_afficher_plus_container_2_section_3_hebergement-----*/
-
-.ancre_3 {
-  width: 100%;
-  padding: 20px;
 }
 
 /*-----container_2_section_3_les_plus_populaire-----*/
 
 .col_les_plus_populaire {
-  width: 40%;
-  border-radius: 30px;
+  display: block;
+  width: 100%;
 }
 
 .box_3 {
-  height: 97%;
-  display: flex;
-  flex-direction: column;
-  border-radius: 30px;
-  justify-content: space-evenly;
-  background: rgb(240, 240, 240);
-  margin: 10px;
-}
-
-.box_3 > .p > .span {
-  color: #dadada;
+  display: block;
+  width: 100%;
 }
 
 .box_3 > div{
-  padding: 20px;
+  display: block;
+  width: 100%;
 }
 
-#activite {
-  padding: 10px;
-  font-weight: bolder;
-  margin-right: 60px;
-  margin-left: 50px;
-}
-
-#activite > i {
-  float: right;
-}
-
-.article_2 {
-  box-shadow: 5px 5px 5px rgb(230, 230, 230);
-  display: inline-flex;
-  border-radius: 20px;
-  border: solid #ffffff 5px;
-  background-color: #ffffff;
-  height: 140px;
-  width: 80%;
-  margin-left: 40px;
-  margin-right: 40px;
-}
-
-.article_2 > div {
-  margin: 20px;
-  padding: 5px;
-  margin-top: -5px;
-}
-
-.article_2 > .img_2 {
-  border-radius: 10px 0 0 10px;
-  width: 40%;
-  height: 140px;
-  object-fit: cover;
-}
-
-.pc2_1{
-  height: 30px;
-  font-weight: bolder;
-}
-.pc2_2 {
-  height: 40px;
-}
-
-.pc2_3{
-  font-weight: bolder;
-  height: 30px;
-}
-
-.pc2_4 {
-  height: 40px;
-}
-
-.pc2_5{
-  height: 30px;
-  font-weight: bolder;
-}
-
-.pc2_6 {
-  height: 40px;
-}
 
 /*-----container_3_section_4_activite-----*/
 
 .box_4 {
-  display: inline-flex;
+  display: block;
+  width: 100%;
 }
 
 .box_4 > div {
-  width: 25%;
-  padding: 20px;
-}
-
-.h2_3 {
+  display: block;
   width: 100%;
-  margin-left: 20px;
-}
-
-.p_4{
-  margin: 5px;
-  padding: 5px;
-  font-weight: bolder;
-}
-
-/*----- vieux_port-----*/
-
-.article_3 {
-  box-shadow: 5px 5px 5px rgb(240, 240, 240);
-  background-color: rgb(255, 255, 255);
-  border-radius: 20px;
-  width: 100%;
-}
-
-.article_3 > .img_3 {
-  border-radius: 20px 20px 0px 0px;
-  object-fit: cover;
-  width: 100%;
-  height: 333px;
-}
-/*-----fort_de_pomègues-----*/
-
-.article_4 {
-  box-shadow: 5px 5px 5px rgb(240, 240, 240);
-  background-color: rgb(255, 255, 255);
-  border-radius: 10%;
-  width: 100%;
-}
-
-.article_4 > .img_4 {
-  border-radius: 10px 10px 0px 0px;
-  object-fit: cover;
-  object-position: 0 -125px;
-  width: 100%;
-  height: 150px;
-}
-
-/*-----îles_du_frioul-----*/
-
-.article_5 {
-  box-shadow: 5px 5px 5px rgb(240, 240, 240);
-  background-color: rgb(255, 255, 255);
-  border-radius: 10%;
-  width: 100%;
-}
-
-.article_5 > .img_5 {
-  border-radius: 20px 20px 0px 0px;
-  object-fit: cover;
-  object-position: top;
-  width: 100%;
-  height: 120px ;
-}
-
-/*-----parc_national_des_calanques-----*/
-
-.article_6 {
-  box-shadow: 5px 5px 5px rgb(240, 240, 240);
-  background-color: rgb(255, 255, 255);
-  border-radius: 10%;
-  width: 100%;
-}
-
-.article_6 > .img_6 {
-  border-radius: 20px 20px 0px 0px;
-  object-fit: cover;
-  object-position: center top;
-  width: 100%;
-  height: 333px;
-}
-
-/*-----nôtre_dame_de_la_garde-----*/
-
-.article_7 {
-  box-shadow: 5px 5px 5px rgb(240, 240, 240);
-  background-color: rgb(255, 255, 255);
-  border-radius: 10%;
-  width: 100%;
-}
-
-.article_7 > .img_7 {
-  border-radius: 20px 20px 0px 0px;
-  object-fit: cover;
-  object-position: top;
-  width: 100%;
-  height: 135px;
-}
-
-/*-----parc_longchamps-----*/
-
-.article_8 {
-  box-shadow: 5px 5px 5px rgb(240, 240, 240);
-  background-color: rgb(255, 255, 255);
-  border-radius: 10%;
-  width: 100%;
-}
-
-.article_8 > .img_8 {
-  border-radius: 20px 20px 0px 0px;
-  object-fit: cover;
-  object-position: 0px -20px;
-  width: 100%;
-  height: 135px;
 }
 
 /*-----container_4_section_5_footer-----*/
 
 .box_5 {
-  padding: 10px;
-  margin: -20px;
-  background-color: rgb(240, 240, 240);
-  display: flex;
+ display: grid;
+ width: 100%;
 }
 
 .box_5 > div {
-  margin-left: 30px;
-  display: grid;
-  width: 33.3%;
+  display: block;
+  width: 100%;
 }
 
 
