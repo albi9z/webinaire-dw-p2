@@ -118,7 +118,7 @@ button {
   border-radius: 0 10px 10px 0;
   border: none;
   background: #0065fc;
-  color: #ffffff;
+  color: #fff;
 }
 
 /*-----filtre_container_2_trouvez-----*/
@@ -227,8 +227,8 @@ strong{
 
 .article_1 {
   box-shadow: 5px 5px 5px rgb(230, 230, 230);
-  background-color: #ffffff;
-  border: solid #ffffff 5px;
+  background-color: #fff;
+  border: solid #fff 5px;
   border-radius: 30px;
   height: 200px;
 }
@@ -315,8 +315,8 @@ a article div p span{
   box-shadow: 5px 5px 5px rgb(230, 230, 230);
   display: inline-flex;
   border-radius: 20px;
-  border: solid #ffffff 5px;
-  background-color: #ffffff;
+  border: solid #fff 5px;
+  background-color: #fff;
   height: 140px;
   width: 80%;
   margin-left: 40px;
@@ -388,7 +388,7 @@ a article div p span{
 
 .article_3 {
   box-shadow: 5px 5px 5px rgb(240, 240, 240);
-  background-color: rgb(255, 255, 255);
+  background-color:#fff;
   border-radius: 20px;
   width: 100%;
 }
@@ -403,7 +403,7 @@ a article div p span{
 
 .article_4 {
   box-shadow: 5px 5px 5px rgb(240, 240, 240);
-  background-color: rgb(255, 255, 255);
+  background-color: #fff;
   border-radius: 10%;
   width: 100%;
 }
@@ -420,7 +420,7 @@ a article div p span{
 
 .article_5 {
   box-shadow: 5px 5px 5px rgb(240, 240, 240);
-  background-color: rgb(255, 255, 255);
+  background-color: #fff;
   border-radius: 10%;
   width: 100%;
 }
@@ -437,7 +437,7 @@ a article div p span{
 
 .article_6 {
   box-shadow: 5px 5px 5px rgb(240, 240, 240);
-  background-color: rgb(255, 255, 255);
+  background-color: #fff;
   border-radius: 10%;
   width: 100%;
 }
@@ -454,7 +454,7 @@ a article div p span{
 
 .article_7 {
   box-shadow: 5px 5px 5px rgb(240, 240, 240);
-  background-color: rgb(255, 255, 255);
+  background-color: #fff;
   border-radius: 10%;
   width: 100%;
 }
@@ -471,7 +471,7 @@ a article div p span{
 
 .article_8 {
   box-shadow: 5px 5px 5px rgb(240, 240, 240);
-  background-color: rgb(255, 255, 255);
+  background-color: #fff;
   border-radius: 10%;
   width: 100%;
 }
@@ -499,34 +499,89 @@ a article div p span{
   width: 33.3%;
 }
 
-@media screen and (max-width: 768px) {
+  @media only screen and (max-width: 800px){
 
-  /* container central 1 */
+/*-----container_section_1_nav-----*/
 
-.container {
-  display: block ;
+.box{
+ flex-direction: column;
+}
+
+
+.nav {
+ align-self: center;
+}
+
+.lien_nav {
+  display: contents;
+}
+
+.lien_nav_1{
+ display: contents;
+}
+
+/*-----ancre_hebergment_/_activite_nav-----*/
+
+a { 
+}
+
+/*-----barre_de_recherche_container_1_section_2_trouvez-----*/
+
+.container_1{
+  display: block;
   width: 100%;
 }
 
-.box{
-  display: flex;
-  flex-direction: column;
+.box_1{
+  display: block;
+ width: 100%;
 }
 
 form {
-  width: 100%;
+}
+
+.span {
+
+}
+
+form > input {
+ 
+}
+
+button {
+
+}
+
+/*-----filtre_container_2_trouvez-----*/
+
+.filtre_1{
+
+}
+
+
+
+/*-----icon_i_container_2_trouvez-----*/
+
+.span_2{
+
+}
+
+/*-----ancre_#_section_2_trouvez-----*/
+
+.ancre_1 {
+ 
+}
+
+.ancre_1 a {
+  
 }
 
 /*-----container_2_section_3_hebergement-----*/
 
-.container_2{
-  display: block;
-  width: 100%;
-}
-
 .col_hebergement {
   display: block;
   width: 100%;
+  
 }
 
 .box_2 {
@@ -539,6 +594,41 @@ form {
   width: 100%;
 }
 
+#hebergement {
+  display: block;
+ width: 100%;
+}
+
+.article_1 {
+ height: auto;
+}
+
+.article_1 > div {
+  width: 90%;
+}
+
+.img_1{
+  height: 150px;
+}
+
+.p_1{
+ font-weight: bolder;
+ height: 10px;
+ margin: 2px;
+}
+
+.p_2{
+  height: 10px;
+}
+
+
+/*-----ancre_afficher_plus_container_2_section_3_hebergement-----*/
+
+.ancre_3 {
+  width: 100%;
+  padding: 20px;
+}
+
 /*-----container_2_section_3_les_plus_populaire-----*/
 
 .col_les_plus_populaire {
@@ -548,38 +638,159 @@ form {
 
 .box_3 {
   display: block;
-  width: 100%;
+ width: 100%;
+}
+
+.box_3 > .p > .span {
+ 
 }
 
 .box_3 > div{
   display: block;
-  width: 100%;
+ width: 100%;
 }
 
+#activite {
+ 
+}
+
+#activite > i {
+  float: right;
+}
+
+.article_2 {
+  display: block;
+ width: 100%;
+}
+
+.article_2 > div {
+  display: block;
+ width: 100%;
+}
+
+.article_2 > .img_2 {
+  
+}
+
+.pc2_1{
+ 
+}
+.pc2_2 {
+ 
+}
+
+.pc2_3{
+ 
+}
+
+.pc2_4 {
+  
+}
+
+.pc2_5{
+
+}
+
+.pc2_6 {
+  
+}
 
 /*-----container_3_section_4_activite-----*/
 
 .box_4 {
   display: block;
-  width: 100%;
+ width: 100%;
 }
 
 .box_4 > div {
   display: block;
+ width: 100%;
+}
+
+.h2_3 {
   width: 100%;
+  
+}
+
+.p_4{
+  
+}
+
+/*----- vieux_port-----*/
+
+.article_3 {
+  display: block;
+ width: 100%;
+}
+
+.article_3 > .img_3 {
+
+}
+/*-----fort_de_pomègues-----*/
+
+.article_4 {
+  display: block;
+ width: 100%;
+}
+
+.article_4 > .img_4 {
+  
+}
+
+/*-----îles_du_frioul-----*/
+
+.article_5 {
+  display: block;
+ width: 100%;
+}
+
+.article_5 > .img_5 {
+
+}
+
+/*-----parc_national_des_calanques-----*/
+
+.article_6 {
+  display: block;
+  width: 100%;
+}
+
+.article_6 > .img_6 {
+ 
+}
+
+/*-----nôtre_dame_de_la_garde-----*/
+
+.article_7 {
+  display: block;
+ width: 100%;
+}
+
+.article_7 > .img_7 {
+ 
+}
+
+/*-----parc_longchamps-----*/
+
+.article_8 {
+  display: block;
+ width: 100%;
+}
+
+.article_8 > .img_8 {
+ 
 }
 
 /*-----container_4_section_5_footer-----*/
 
 .box_5 {
- display: grid;
+  display: block;
  width: 100%;
 }
 
 .box_5 > div {
-  display: block;
-  width: 100%;
+ display: block;
+ width: 100%;
 }
-
 
 }
