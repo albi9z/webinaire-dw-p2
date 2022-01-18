@@ -2,6 +2,10 @@
 
 /* body */
 
+body{
+  margin: 0;
+}
+
 * {
   font-family: 'Raleway', sans-serif;
 }
@@ -365,7 +369,7 @@ a article div p span{
 /*-----container_3_section_4_activite-----*/
 
 .box_4 {
-  display: inline-flex;
+  display: flex;
 }
 
 .box_4 > div {
@@ -487,8 +491,6 @@ a article div p span{
 /*-----container_4_section_5_footer-----*/
 
 .box_5 {
-  padding: 10px;
-  margin: -20px;
   background-color: rgb(240, 240, 240);
   display: flex;
 }
@@ -502,6 +504,10 @@ a article div p span{
   @media only screen and (max-width: 800px){
 
 /*-----container_section_1_nav-----*/
+
+body{
+  display: block;
+}
 
 .box{
  flex-direction: column;
@@ -536,10 +542,17 @@ form {
 
 /*-----container_2_section_3_hebergement-----*/
 
+.container_2{
+  display: flex;
+}
+
+.container_2 > .col_hebergement {
+ 
+ order: 2;
+}
+
 .col_hebergement {
-  display: block;
-  width: 100%;
-  
+  display: block; 
 }
 
 .box_2 {
@@ -562,13 +575,6 @@ form {
 
 .img_1{
   height: 150px;
-}
-
-/*-----ancre_afficher_plus_container_2_section_3_hebergement-----*/
-
-.ancre_3 {
-  width: 100%;
-  padding: 20px;
 }
 
 /*-----container_2_section_3_les_plus_populaire-----*/
@@ -614,10 +620,6 @@ form {
  width: 100%;
 }
 
-.h2_3 {
-  width: 100%;
-  
-}
 
 /*----- vieux_port-----*/
 
