@@ -378,8 +378,9 @@ a article div p span{
 }
 
 .h2_3 {
+  box-sizing: border-box;
+  padding-left: 20px;
   width: 100%;
-  margin-left: 20px;
 }
 
 .p_4{
@@ -542,9 +543,7 @@ form {
 
 /*-----container_2_section_3_hebergement-----*/
 
-.container_2{
-  display: flex;
-}
+
 
 .container_2 > .col_hebergement {
  
@@ -573,8 +572,8 @@ form {
   width: 90%;
 }
 
-.img_1{
-  height: 150px;
+.article_1 > .img_1{
+  height: 200px;
 }
 
 /*-----container_2_section_3_les_plus_populaire-----*/
@@ -594,14 +593,9 @@ form {
  width: 100%;
 }
 
-.article_2 {
- 
- width: 100%;
-}
-
 .article_2 > div {
   display: block;
- width: 100%;
+  width: 100%;
 }
 
 .article_2 > .img_2 {
