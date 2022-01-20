@@ -56,10 +56,6 @@ body{
   width: 100%;
 }
 
-.container_0 {
-  width: 100%;
-}
-
 /*-----container_section_1_nav-----*/
 
 .box{
@@ -196,8 +192,6 @@ strong{
 
 .col_hebergement {
   display: flex;
-  margin: 10px;
-  
 }
 
 .box_2 {
@@ -206,6 +200,7 @@ strong{
   border-radius: 30px;
   background: rgb(240, 240, 240);
   width: 60%;
+  height: fit-content;
   margin: 8px;
 }
 
@@ -286,13 +281,11 @@ a article div p span{
 }
 
 .box_3 {
-  height: 97%;
   display: flex;
   flex-direction: column;
   border-radius: 30px;
   justify-content: space-evenly;
   background: rgb(240, 240, 240);
-  margin: 10px;
 }
 
 .box_3 > .p > .span {
@@ -316,12 +309,11 @@ a article div p span{
 
 .article_2 {
   box-shadow: 5px 5px 5px rgb(230, 230, 230);
-  display: inline-flex;
+  display: flex;
   border-radius: 20px;
   border: solid #fff 5px;
   background-color: #fff;
-  height: 140px;
-  width: 80%;
+  height: 130px;
   margin-left: 40px;
   margin-right: 40px;
 }
@@ -332,49 +324,89 @@ a article div p span{
   margin-top: -5px;
 }
 
-.article_2 > .img_2 {
+.article_2 > .img_2{
   border-radius: 10px 0 0 10px;
-  width: 40%;
-  height: 140px;
+  width: 30%;
+  height: 130px;
   object-fit: cover;
 }
+
+
+.article_2-1 {
+  box-shadow: 5px 5px 5px rgb(230, 230, 230);
+  display: flex;
+  border-radius: 20px;
+  border: solid #fff 5px;
+  background-color: #fff;
+  height: 130px;
+  margin-left: 40px;
+  margin-right: 40px;
+}
+
+.article_2-1 > div {
+  margin: 20px;
+  padding: 5px;
+  margin-top: -5px;
+}
+
 .article_2-1 > .img_2-1 {
   border-radius: 10px 0 0 10px;
-  width: 40%;
-  height: 140px;
+  width: 30%;
+  height: 130px;
   object-fit: cover;
 }
+
+.article_2-2 {
+  box-shadow: 5px 5px 5px rgb(230, 230, 230);
+  display: flex;
+  border-radius: 20px;
+  border: solid #fff 5px;
+  background-color: #fff;
+  height: 130px;
+  margin-left: 40px;
+  margin-right: 40px;
+}
+
+.article_2-2 > div {
+  margin: 20px;
+  padding: 5px;
+  margin-top: -5px;
+}
+
 .article_2-2 > .img_2-2 {
   border-radius: 10px 0 0 10px;
-  width: 40%;
-  height: 140px;
+  width: 30%;
+  height: 130px;
   object-fit: cover;
 }
 
+
 .pc2_1{
-  height: 30px;
   font-weight: bolder;
+  font-size: 20px;
 }
 .pc2_2 {
-  height: 40px;
+  height: 25px;
 }
 
-.pc2_3{
+.pc2_3 {
   font-weight: bolder;
   height: 30px;
+  font-size: 20px;
 }
 
 .pc2_4 {
-  height: 40px;
+  height: 30px;
 }
 
 .pc2_5{
-  height: 30px;
   font-weight: bolder;
+  height: 30px;
+  font-size: 20px;
 }
 
 .pc2_6 {
-  height: 40px;
+  height: 30px;
 }
 
 /*-----container_3_section_4_activite-----*/
@@ -540,9 +572,7 @@ body{
 }
 
 nav{
-  box-sizing: border-box;
-  padding-left: 100px;
-}
+  display: flex;
 }
 
 .lien_nav {
@@ -577,20 +607,28 @@ form {
 
 /*--MDQ---container_2_section_3_hebergement-----*/
 
-
-
-.container_2 > .col_hebergement {
- 
- order: 2;
+.container_2{
+  display: flex;
 }
 
 .col_hebergement {
-  display: block; 
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.col_hebergement .box_3 {
+  flex: 1;
+  order: 1;
+}
+
+.col_hebergement .box_2 {
+  order: 2;
 }
 
 .box_2 {
   display: block;
   width: 100%;
+  background-color: #fff;
 }
 
 .box_2 > div {
@@ -619,11 +657,7 @@ form {
 
 .box_3 {
   display: block;
- width: 100%;
-}
-
-.box_3 > div{
-  display: block;
+  border-radius: 0;
 }
 
 .article_2 > div {
@@ -652,7 +686,7 @@ width: 30%;
 
 .box_4 > div {
   display: block;
- width: 100%;
+  width: 100%;
 }
 
 
@@ -674,26 +708,26 @@ width: 30%;
 
 
 .article_5 > .img_5 {
-  height: 250px;
+  height: 270px;
 }
 
 /*--MDQ---parc_national_des_calanques-----*/
 
 
 .article_6 > .img_6 {
- height: 250px;
+ height: 270px;
 }
 
 /*--MDQ---nôtre_dame_de_la_garde-----*/
 
 .article_7 > .img_7 {
- height: 250px;
+ height: 270px;
 }
 
 /*--MDQ---parc_longchamps-----*/
 
 .article_8 > .img_8 {
- height: 250px;
+ height: 270px;
 }
 
 /*--MDQ---container_4_section_5_footer-----*/
