@@ -201,7 +201,8 @@ strong{
   background: rgb(240, 240, 240);
   width: 60%;
   height: fit-content;
-  margin: 8px;
+  margin: 10px;
+  padding: 10px;
 }
 
 .box_2 > div {
@@ -286,6 +287,7 @@ a article div p span{
   border-radius: 30px;
   justify-content: space-evenly;
   background: rgb(240, 240, 240);
+  margin: 10px; 
 }
 
 .box_3 > .p > .span {
@@ -380,33 +382,27 @@ a article div p span{
   object-fit: cover;
 }
 
-
-.pc2_1{
-  font-weight: bolder;
-  font-size: 20px;
+.pc2_1 {
+  margin-top: 10px;
 }
+
 .pc2_2 {
-  height: 25px;
+  height: 40px;
 }
 
 .pc2_3 {
-  font-weight: bolder;
-  height: 30px;
-  font-size: 20px;
+ height: 30px;
 }
-
 .pc2_4 {
   height: 30px;
 }
 
-.pc2_5{
-  font-weight: bolder;
-  height: 30px;
-  font-size: 20px;
+.pc2_5 {
+  
 }
 
 .pc2_6 {
-  height: 30px;
+ 
 }
 
 /*-----container_3_section_4_activite-----*/
@@ -602,7 +598,42 @@ nav{
  width: 100%;
 }
 
+h2{
+
+}
+
 form {
+  display: flex;
+  justify-content: center;
+  height: 50px;
+}
+
+form > input{
+  width: 100%;
+  font-weight: bolder;
+  font-size: 20px;
+}
+
+.span{
+
+}
+
+button{
+ padding: 0;
+ border-radius: 15px;
+}
+
+.filtre_1{
+  margin-left: 0px;
+  display: block;
+}
+
+.ancre_1{
+  margin: 0;
+}
+
+.ancre_1 a {
+ margin: 5px;
 }
 
 /*--MDQ---container_2_section_3_hebergement-----*/
@@ -645,10 +676,15 @@ form {
 }
 
 .article_1 > .img_1{
-  height: 200px;
+  height: 100px;
 }
 
+
 /*--MDQ---container_2_section_3_les_plus_populaire-----*/
+
+#activite{
+ margin: 15px;
+}
 
 .col_les_plus_populaire {
   display: block;
@@ -660,21 +696,25 @@ form {
   border-radius: 0;
 }
 
+.box_3 > div {
+ padding: 5px;
+}
+
+.article_2{
+  margin: 5px 20px;
+}
+
+.article_2-1{
+  margin: 5px 20px;
+}
+
+.article_2-2{
+  margin: 5px 20px;
+}
+
 .article_2 > div {
   display: block;
   width: 100%;
-}
-
-.article_2 > .img_2 {
-width: 30%;
-}
-
-.article_2-1 > .img_2-1 {
-  width: 30%;
-}
-
-.article_2-2 > .img_2-2 {
-  width: 30%;
 }
 
 /*--MDQ---container_3_section_4_activite-----*/
@@ -694,13 +734,13 @@ width: 30%;
 
 
 .article_3 > .img_3 {
-  height: 150px;
+  height: 80px;
 }
 /*--MDQ---fort_de_pomègues-----*/
 
 
 .article_4 > .img_4 {
-  height: 150px;
+  height: 80px;
   object-position: center;
 }
 
@@ -708,26 +748,26 @@ width: 30%;
 
 
 .article_5 > .img_5 {
-  height: 270px;
+  height: 150px;
 }
 
 /*--MDQ---parc_national_des_calanques-----*/
 
 
 .article_6 > .img_6 {
- height: 270px;
+ height: 150px;
 }
 
 /*--MDQ---nôtre_dame_de_la_garde-----*/
 
 .article_7 > .img_7 {
- height: 270px;
+ height: 150px;
 }
 
 /*--MDQ---parc_longchamps-----*/
 
 .article_8 > .img_8 {
- height: 270px;
+ height: 150px;
 }
 
 /*--MDQ---container_4_section_5_footer-----*/
