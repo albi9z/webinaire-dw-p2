@@ -384,10 +384,11 @@ a article div p span{
 
 .pc2_1 {
   margin-top: 10px;
+  font-weight: bolder;
 }
 
 .pc2_2 {
-  height: 40px;
+  height: 30px;
 }
 
 .pc2_3 {
@@ -551,7 +552,7 @@ a article div p span{
   box-sizing: border-box;
 }
 
-  @media only screen and (max-width: 800px){
+  @media only screen and (max-width: 992px){
 
 /*--MDQ---container_section_1_nav-----*/
 
@@ -580,6 +581,8 @@ nav{
 }
 
 .lien_nav_1{
+  margin-right: 0;
+  margin-left: 0;
   width: 50%;
   padding: 10px 15px;
   text-align: center;
@@ -609,7 +612,7 @@ form {
 }
 
 form > input{
-  width: 100%;
+  flex-grow: 1;
   font-weight: bolder;
   font-size: 20px;
 }
@@ -676,9 +679,12 @@ button{
 }
 
 .article_1 > .img_1{
-  height: 100px;
+  height: 115px;
 }
 
+.ancre_3{
+  font-weight: bolder;
+}
 
 /*--MDQ---container_2_section_3_les_plus_populaire-----*/
 
@@ -704,8 +710,16 @@ button{
   margin: 5px 20px;
 }
 
+.article_2 > .img_2{
+  object-position: -50px;
+}
+
 .article_2-1{
   margin: 5px 20px;
+}
+
+.article_2-1 > .img_2-1{
+  object-position: -50px;
 }
 
 .article_2-2{
@@ -715,6 +729,11 @@ button{
 .article_2 > div {
   display: block;
   width: 100%;
+}
+
+.pc2_3{
+ font-weight: bolder;
+ height: auto;
 }
 
 /*--MDQ---container_3_section_4_activite-----*/
@@ -734,7 +753,7 @@ button{
 
 
 .article_3 > .img_3 {
-  height: 80px;
+  height: 110px;
 }
 /*--MDQ---fort_de_pomègues-----*/
 
@@ -744,30 +763,29 @@ button{
   object-position: center;
 }
 
-/*--MDQ---îles_du_frioul-----*/
-
+/*-----îles_du_frioul-----*/
 
 .article_5 > .img_5 {
   height: 150px;
 }
 
-/*--MDQ---parc_national_des_calanques-----*/
 
+/*-----parc_national_des_calanques-----*/
 
-.article_6 > .img_6 {
- height: 150px;
+.article_6 > .img_6{
+  height: 150px;
 }
 
-/*--MDQ---nôtre_dame_de_la_garde-----*/
+/*-----nôtre_dame_de_la_garde-----*/
 
-.article_7 > .img_7 {
- height: 150px;
+.article_7 > .img_7{
+  height: 150px;
 }
 
-/*--MDQ---parc_longchamps-----*/
+/*-----parc_longchamps-----*/
 
-.article_8 > .img_8 {
- height: 150px;
+.article_8 > .img_8{
+  height: 150px;
 }
 
 /*--MDQ---container_4_section_5_footer-----*/
@@ -781,4 +799,251 @@ button{
  width: 100%;
 }
 
+}
+
+@media only screen and (max-width: 768px){
+/*--MDQ---container_section_1_nav-----*/
+
+body{
+  display: block;
+}
+
+.box{
+ flex-direction: column;
+}
+
+.nav {
+ align-self: center;
+}
+
+nav{
+  display: flex;
+}
+
+.lien_nav {
+  width: 50%;
+  padding: 10px 15px;
+  text-align: center;
+  border-top: none;
+  border-bottom: solid blue 2px;
+}
+
+.lien_nav_1{
+  margin-right: 0;
+  margin-left: 0;
+  width: 50%;
+  padding: 10px 15px;
+  text-align: center;
+  border-bottom: solid gray 2px;
+}
+
+/*--MDQ---barre_de_recherche_container_1_section_2_trouvez-----*/
+
+.container_1{
+  display: block;
+  width: 100%;
+}
+
+.box_1{
+  display: block;
+ width: 100%;
+}
+
+h2{
+
+}
+
+form {
+  display: flex;
+  justify-content: center;
+  height: 50px;
+}
+
+form > input{
+  flex-grow: 1;
+  font-weight: bolder;
+  font-size: 20px;
+}
+
+.span{
+
+}
+
+button{
+ padding: 0;
+ border-radius: 15px;
+}
+
+.filtre_1{
+  margin-left: 0px;
+  display: block;
+}
+
+.ancre_1{
+  margin: 0;
+}
+
+.ancre_1 a {
+ margin: 5px;
+}
+
+/*--MDQ---container_2_section_3_hebergement-----*/
+
+.container_2{
+  display: flex;
+}
+
+.col_hebergement {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.col_hebergement .box_3 {
+  flex: 1;
+  order: 1;
+}
+
+.col_hebergement .box_2 {
+  order: 2;
+}
+
+.box_2 {
+  display: block;
+  width: 100%;
+  background-color: #fff;
+}
+
+.box_2 > div {
+  display: block;
+  width: 100%;
+}
+
+.article_1 {
+ height: auto;
+}
+
+.article_1 > div {
+  width: 90%;
+}
+
+.article_1 > .img_1{
+  height: 115px;
+}
+
+.ancre_3{
+  font-weight: bolder;
+}
+
+/*--MDQ---container_2_section_3_les_plus_populaire-----*/
+
+#activite{
+ margin: 15px;
+}
+
+.col_les_plus_populaire {
+  display: block;
+  width: 100%;
+}
+
+.box_3 {
+  display: block;
+  border-radius: 0;
+}
+
+.box_3 > div {
+ padding: 5px;
+}
+
+.article_2{
+  margin: 5px 20px;
+}
+
+.article_2 > .img_2{
+  object-position: -50px;
+}
+
+.article_2-1{
+  margin: 5px 20px;
+}
+
+.article_2-1 > .img_2-1{
+  object-position: -50px;
+}
+
+.article_2-2{
+  margin: 5px 20px;
+}
+
+.article_2 > div {
+  display: block;
+  width: 100%;
+}
+
+.pc2_3{
+ font-weight: bolder;
+ height: auto;
+}
+
+/*--MDQ---container_3_section_4_activite-----*/
+
+.box_4 {
+  display: block;
+ width: 100%;
+}
+
+.box_4 > div {
+  display: block;
+  width: 100%;
+}
+
+
+/*--MDQ--- vieux_port-----*/
+
+
+.article_3 > .img_3 {
+  height: 110px;
+}
+/*--MDQ---fort_de_pomègues-----*/
+
+
+.article_4 > .img_4 {
+  height: 80px;
+  object-position: center;
+}
+
+/*-----îles_du_frioul-----*/
+
+.article_5 > .img_5 {
+  height: 150px;
+}
+
+
+/*-----parc_national_des_calanques-----*/
+
+.article_6 > .img_6{
+  height: 150px;
+}
+
+/*-----nôtre_dame_de_la_garde-----*/
+
+.article_7 > .img_7{
+  height: 150px;
+}
+
+/*-----parc_longchamps-----*/
+
+.article_8 > .img_8{
+  height: 150px;
+}
+
+/*--MDQ---container_4_section_5_footer-----*/
+
+.box_5 {
+  display: block;
+ width: 100%;
+}
+
+.box_5 > div {
+ width: 100%;
+}
 }
