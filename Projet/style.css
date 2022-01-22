@@ -694,6 +694,7 @@ button{
 .p_2{
   font-size: 30px;
   margin-top: 10px;
+  margin-bottom: 40px;
 }
 
 .p_4{
@@ -722,25 +723,25 @@ button{
 }
 
 .article_2{
-  height: 250px;
+  height: 200px;
 }
 
 .article_2 > .img_2{
-  object-position: -50px;
+  
   height: auto;
 }
 
 .article_2-1{
-  height: 250px;
+  height: 200px;
 }
 
 .article_2-1 > .img_2-1{
-  object-position: -50px;
+  width: 30%;
   height: auto;
 }
 
 .article_2-2{
-  height: 250px;
+  height: 200px;
 }
 
 .article_2-2 > .img_2-2{
@@ -759,30 +760,32 @@ button{
 
 .pc2_2{
   font-size: xx-large;
-  height: 90px;
+  height: 60px;
+  margin-top: -20px;
 }
 
 .pc2_3{
-  font-size: 40px;
+  font-size: 35px;
   font-weight: bolder;
-  height: 80px;
+  height: 40px;
   margin-top: 10px;
 }
 
 .pc2_4{
+  margin-top: 60px;
   font-size: xx-large;
-  height: 60px;
+  height: 30px;
 }
 
 .pc2_5{
-  font-size: 40px;
+  font-size: 35px;
   font-weight: bolder;
-  margin-top: 15px;
+  margin-top: 20px;
 }
 
 .pc2_6{
   font-size: xx-large;
-  height: 90px;
+  height: 40px;
 }
 
 /*--MDQ992---container_3_section_4_activite-----*/
