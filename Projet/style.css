@@ -922,14 +922,17 @@ button{
 
 .article_2{
   height: 140px;
+  margin: 0;
 }
 
 .article_2-1{
   height: 140px;
+  margin: 0;
 }
 
 .article_2-2{
   height: 140px;
+  margin: 0;
 }
 
 .pc2_1{
@@ -937,25 +940,31 @@ button{
 }
 
 .pc2_2{
+  height: 40px;
   font-size: smaller;
+  margin: auto;
 }
 
 .pc2_3{
   font-size: 15px;
-  height: auto;
+  height: 40px;
 }
 
 .pc2_4{
   font-size: medium;
-  height: auto;
+  height: 50px;
+  margin: 0;
 }
 
 .pc2_5{
  font-size: 20px;
+ margin-top: 10px;
 }
 
 .pc2_6{
   font-size: smaller;
+  height: 25px;
+}
 }
 
 #hebergement{
@@ -971,7 +980,7 @@ button{
 }
 
 .p_1{
- font-size: 30px;
+ font-size: 25px;
 }
 
 .p_2{
