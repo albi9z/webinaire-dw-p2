@@ -454,7 +454,7 @@ a article div p span{
 .article_4 {
   box-shadow: 5px 5px 5px rgb(240, 240, 240);
   background-color: #fff;
-  border-radius: 10%;
+  border-radius: 20px;
   width: 100%;
 }
 
@@ -471,7 +471,7 @@ a article div p span{
 .article_5 {
   box-shadow: 5px 5px 5px rgb(240, 240, 240);
   background-color: #fff;
-  border-radius: 10%;
+  border-radius: 20px;
   width: 100%;
 }
 
@@ -488,7 +488,7 @@ a article div p span{
 .article_6 {
   box-shadow: 5px 5px 5px rgb(240, 240, 240);
   background-color: #fff;
-  border-radius: 10%;
+  border-radius: 20px;
   width: 100%;
 }
 
@@ -505,7 +505,7 @@ a article div p span{
 .article_7 {
   box-shadow: 5px 5px 5px rgb(240, 240, 240);
   background-color: #fff;
-  border-radius: 10%;
+  border-radius: 20px;
   width: 100%;
 }
 
@@ -522,7 +522,7 @@ a article div p span{
 .article_8 {
   box-shadow: 5px 5px 5px rgb(240, 240, 240);
   background-color: #fff;
-  border-radius: 10%;
+  border-radius: 20px;
   width: 100%;
 }
 
@@ -686,6 +686,27 @@ button{
   font-size: xx-large;
 }
 
+.p_1{
+  font-size: xx-large;
+  height: auto;
+}
+
+.p_2{
+  font-size: 30px;
+  margin-top: 10px;
+}
+
+.p_4{
+  font-size: 25px;
+}
+
+.fa-star.off {
+
+}
+
+.fa-star {
+  font-size: larger;
+}
 /*--MDQ992---container_2_section_3_les_plus_populaire-----*/
 
 #activite{
@@ -740,20 +761,34 @@ button{
 }
 
 .pc2_1{
-
+  font-size: 40px;
+  font-weight: bolder;
 }
 
 .pc2_2{
-
+  font-size: xx-large;
 }
 
 .pc2_3{
- font-weight: bolder;
- height: auto;
+  font-size: 40px;
+  font-weight: bolder;
+  height: 80px;
+  margin-top: auto;
 }
 
 .pc2_4{
+  font-size: xx-large;
+}
 
+.pc2_5{
+  font-size: 40px;
+  font-weight: bolder;
+  margin-top: 15px;
+}
+
+.pc2_6{
+  font-size: xx-large;
+  height: 90px;
 }
 
 /*--MDQ992---container_3_section_4_activite-----*/
@@ -811,6 +846,10 @@ button{
 }
 
 /*--MDQ992---parc_longchamps-----*/
+
+.article_8{
+
+}
 
 .article_8 > .img_8{
   height: 350px;
