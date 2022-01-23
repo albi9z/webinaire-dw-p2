@@ -383,27 +383,30 @@ a article div p span{
 }
 
 .pc2_1 {
-  margin-top: 10px;
+  margin-top: 15px;
   font-weight: bolder;
 }
 
 .pc2_2 {
-  height: 60px;
+  height: 40px;
 }
 
 .pc2_3 {
  height: 30px;
+ font-weight: bolder;
+ margin-top: 10px;
 }
 .pc2_4 {
   height: 30px;
 }
 
 .pc2_5 {
-  
+  margin-top: 10px;
+  font-weight: bolder;
 }
 
 .pc2_6 {
- 
+ height: 40px;
 }
 
 /*-----container_3_section_4_activite-----*/
@@ -550,6 +553,10 @@ a article div p span{
   display: grid;
   width: 33.3%;
   box-sizing: border-box;
+}
+
+label{
+ margin-bottom: 5px;
 }
 
   @media only screen and (max-width: 992px){
@@ -716,6 +723,7 @@ button{
 
 .box_3 {
   border-radius: 0;
+  margin: 0;
 }
 
 .box_3 > div {
@@ -867,15 +875,43 @@ button{
 
 .article_1 > .img_1{
   height: 240px;
-}  
+} 
+
+.pc2_1{
+  font-size: 35px;
+  font-weight: bolder;
+}
 
 .pc2_2{
-  height: auto;
+  font-size: xx-large;
+  height: 60px;
+  margin-top: -20px;
+}
+
+.pc2_3{
+  font-size: 35px;
+  font-weight: bolder;
+  height: 40px;
+  margin-top: 10px;
+}
+
+.pc2_4{
+  margin-top: 60px;
+  font-size: xx-large;
+  height: 30px;
+}
+
+.pc2_5{
+  font-size: 35px;
+  font-weight: bolder;
+  margin-top: 20px;
 }
 
 .pc2_6{
- height: auto;
+  font-size: xx-large;
+  height: 40px;
 }
+
 
 .article_3 > .img_3{
   object-position: 0 -30px;
@@ -937,21 +973,22 @@ button{
 
 .pc2_1{
   font-size: 20px;
+  margin-top: 5px;
 }
 
 .pc2_2{
-  height: 40px;
-  font-size: smaller;
+  height: 35px;
+  font-size: 19px;
   margin: auto;
 }
 
 .pc2_3{
-  font-size: 15px;
+  font-size: 20px;
   height: 40px;
 }
 
 .pc2_4{
-  font-size: medium;
+  font-size: 19px;
   height: 50px;
   margin: 0;
 }
@@ -962,18 +999,13 @@ button{
 }
 
 .pc2_6{
-  font-size: smaller;
+  font-size: 19px;
   height: 25px;
-}
 }
 
 #hebergement{
   font-size: 20px;
 }
-
-.fa-star{
-
-}  
 
 .article_1 > .img_1{
   height: 110px;
