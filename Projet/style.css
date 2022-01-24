@@ -60,12 +60,17 @@ body{
 
 .box{
   display: flex;
+  justify-content: space-between;
 }
 
-.nav {
+.nav_logo {
   height: 50px;
   margin: 20px;
   padding: 20px;
+}
+
+.liens_nav{
+  display: flex;
 }
 
 .lien_nav {
@@ -83,6 +88,10 @@ body{
 a { 
   color: black;
   text-decoration: none;
+}
+
+a:hover{
+  color: rgba(0, 26, 255, 0.4);
 }
 
 /*-----barre_de_recherche_container_1_section_2_trouvez-----*/
@@ -112,7 +121,7 @@ form > input {
   display: flex;
 }
 
-button {
+.button {
   padding: 10px;
   border-radius: 0 10px 10px 0;
   border: none;
@@ -120,7 +129,16 @@ button {
   color: #fff;
 }
 
+.button_mobil{
+  display: none;
+}
+
 /*-----filtre_container_2_trouvez-----*/
+
+.box_1{
+  box-sizing: border-box;
+  padding: 15px;
+}
 
 .filtre_1{
   margin: 20px;
@@ -132,16 +150,19 @@ strong{
   margin: 10px;
 }
 
-.fa-money-bill-wave {
+.fa-money-bill-wave{
   color: #0065fc;
 }
-.fa-child {
+
+ .fa-child{
   color: #0065fc;
 }
-.fa-heart {
+
+.fa-heart{
   color: #0065fc;
 }
-.fa-dog {
+
+.fa-dog{
   color: #0065fc;
 }
 
@@ -272,6 +293,8 @@ a article div p span{
 .ancre_3 {
   width: 100%;
   padding: 20px;
+  font-size: larger;
+  font-weight: bolder;
 }
 
 /*-----container_2_section_3_les_plus_populaire-----*/
@@ -556,7 +579,7 @@ a article div p span{
 }
 
 label{
- margin-bottom: 5px;
+ line-height: 25px;
 }
 
   @media only screen and (max-width: 992px){
@@ -571,12 +594,13 @@ body{
  flex-direction: column;
 }
 
-.nav {
+.nav_logo {
  align-self: center;
 }
 
-nav{
+.liens_nav{
   display: flex;
+  margin-top: -20px;
 }
 
 .lien_nav {
@@ -584,7 +608,7 @@ nav{
   padding: 10px 15px;
   text-align: center;
   border-top: none;
-  border-bottom: solid #0065fc 2px;
+  border-bottom: solid #0065fc 3px;
 }
 
 .lien_nav_1{
@@ -593,7 +617,7 @@ nav{
   width: 50%;
   padding: 10px 15px;
   text-align: center;
-  border-bottom: solid #606060 2px;
+  border-bottom: solid #f2f2f2 3px;
 }
 
 /*--MDQ992---barre_de_recherche_container_1_section_2_trouvez-----*/
@@ -604,8 +628,14 @@ nav{
 }
 
 .box_1{
-  display: block;
+ display: block;
  width: 100%;
+ box-sizing: border-box;
+ padding: 10px;
+}
+
+h2{
+  font-weight: bolder;
 }
 
 form {
@@ -620,14 +650,10 @@ form > input{
   font-size: 20px;
 }
 
-button{
- padding: 0;
- border-radius: 15px;
-}
-
 .filtre_1{
   margin-left: 0px;
   display: block;
+  font-weight: bolder;
 }
 
 .ancre_1{
@@ -669,9 +695,13 @@ button{
   width: 100%;
 }
 
+strong{
+  font-weight: bolder;
+}
+
 #hebergement{
   margin-bottom: 80px;
-  font-size: xxx-large;
+  font-size: 30px;
   font-weight: bolder;
   margin-left: 10px;
 }
@@ -690,7 +720,7 @@ button{
 
 .ancre_3{
   font-weight: bolder;
-  font-size: xx-large;
+  font-size: 25px;
 }
 
 .p_1{
@@ -699,7 +729,7 @@ button{
 }
 
 .p_2{
-  font-size: 30px;
+  font-size: 25px;
   margin-top: 10px;
   margin-bottom: 40px;
 }
@@ -714,7 +744,8 @@ button{
 /*--MDQ992---container_2_section_3_les_plus_populaire-----*/
 
 #activite{
- margin: 15px;
+  font-size: 25px;
+  margin: 10px;
 }
 
 .col_les_plus_populaire {
@@ -762,38 +793,35 @@ button{
 }
 
 .pc2_1{
-  font-size: 40px;
+  font-size: 30px;
   font-weight: bolder;
 }
 
 .pc2_2{
-  font-size: xx-large;
+  font-size: 25px;
   height: 60px;
-  margin-top: -20px;
 }
 
 .pc2_3{
-  font-size: 35px;
+  font-size: 30px;
   font-weight: bolder;
   height: 40px;
   margin-top: 10px;
 }
 
 .pc2_4{
-  margin-top: 60px;
-  font-size: xx-large;
-  height: 30px;
+  font-size: 25px;
+  height: 65px;
 }
 
 .pc2_5{
-  font-size: 35px;
+  font-size: 25px;
   font-weight: bolder;
-  margin-top: 20px;
 }
 
 .pc2_6{
-  font-size: xx-large;
-  height: 40px;
+  font-size: 25px;
+  height: 80px;
 }
 
 /*--MDQ992---container_3_section_4_activite-----*/
@@ -809,7 +837,7 @@ button{
 }
 
 .h2_3{
-  font-size: xxx-large;
+  font-size: 30px;
   font-weight: bolder;
 }
 
@@ -839,7 +867,7 @@ button{
 /*--MDQ992---parc_national_des_calanques-----*/
 
 .article_6 > .img_6{
-  object-position: 0 -80px;
+  object-position: 0 -70px;
   height: 350px;
 }
 
@@ -871,62 +899,62 @@ button{
 
 }
 
-@media only screen and (max-width: 768px){
+@media only screen and (max-width: 768px) {
 
 .article_1 > .img_1{
   height: 240px;
 } 
 
 .pc2_1{
-  font-size: 35px;
+  font-size: 25px;
   font-weight: bolder;
 }
 
 .pc2_2{
-  font-size: xx-large;
-  height: 60px;
-  margin-top: -20px;
+  font-size: 25px;
+  height: 75px;
+  margin-top: 20px;
 }
 
 .pc2_3{
-  font-size: 35px;
+  font-size: 25px;
   font-weight: bolder;
   height: 40px;
   margin-top: 10px;
 }
 
 .pc2_4{
-  margin-top: 60px;
-  font-size: xx-large;
-  height: 30px;
+  font-size: 25px;
+  height: 55px;
+  margin-top: 40px;
 }
 
 .pc2_5{
-  font-size: 35px;
+  font-size: 25px;
   font-weight: bolder;
   margin-top: 20px;
 }
 
 .pc2_6{
-  font-size: xx-large;
-  height: 40px;
+  font-size: 25px;
+  height: 70px;
 }
 
 
 .article_3 > .img_3{
   object-position: 0 -30px;
-  height: 300px;
+  height: 290px;
 }
 
 .article_4 > .img_4{
-  height: 300px;
+  height: 290px;
   object-position: 0 -350px;
 }
 
 /*--MDQ768---îles_du_frioul-----*/
 
 .article_5 > .img_5 {
-  height: 300px;
+  height: 290px;
   object-position: 0 -30px;
 }
 
@@ -934,27 +962,48 @@ button{
 /*--MDQ768---parc_national_des_calanques-----*/
 
 .article_6 > .img_6{
-  height: 300px;
+  height: 290px;
   object-position: 0 -30px;
 }
 
 /*--MDQ768---nôtre_dame_de_la_garde-----*/
 
 .article_7 > .img_7{
-  height: 300px;
+  height: 290px;
   object-position: 0 -20px;
 }
 
 /*--MDQ768---parc_longchamps-----*/
 
 .article_8 > .img_8{
-  height: 300px;
+  height: 290px;
   object-position: 0 -60px;
 }
 
 }
 
 @media only screen and (max-width: 375px){
+
+.button{
+ padding: 0;
+ border-radius: 15px;
+ display: none;
+}
+   
+.button_mobil{
+  background-color: #0065fc;
+  display: flex;
+  align-items: center;
+  width: 100%;
+  border-radius: 10px; 
+}
+
+.fa-search{
+  color: #fff;
+  display: flex;
+  align-self: center;
+  margin-left: 8px;
+}
 
 .article_2{
   height: 140px;
@@ -977,7 +1026,7 @@ button{
 }
 
 .pc2_2{
-  height: 35px;
+  height: 45px;
   font-size: 19px;
   margin: auto;
 }
@@ -1004,7 +1053,7 @@ button{
 }
 
 #hebergement{
-  font-size: 20px;
+  font-size: 25px;
 }
 
 .article_1 > .img_1{
@@ -1032,32 +1081,32 @@ button{
 }
 
 .article_3 > .img_3{
-  object-position: 0 0px;
-  height: 150px;
+  object-position: 0 4px;
+  height: 145px;
 }
 
 .article_4 > .img_4{
-  object-position: 0 -140px;
-  height: 150px;
+  object-position: 0 -130px;
+  height: 145px;
 }
 
 .article_5 > .img_5{
-  object-position: 0 -5px;
-  height: 150px;
+  object-position: 0 3px;
+  height: 145px;
 }
 
 .article_6 > .img_6 {
-  height: 150px;
-  object-position: 0 -5px;
+  height: 145px;
+  object-position: 0 1px;
 }
 .article_7 > .img_7{
-  height: 150px;
+  height: 145px;
   object-position: 0 0px;
 }
 
 .article_8 > .img_8 {
   object-position: 0 -10px;
-  height: 150px;
+  height: 145px;
 }
 
 }
