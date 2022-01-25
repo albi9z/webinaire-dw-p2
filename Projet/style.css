@@ -58,7 +58,7 @@ body{
 
 /*-----container_section_1_nav-----*/
 
-.box{
+.header{
   display: flex;
   justify-content: space-between;
 }
@@ -69,29 +69,46 @@ body{
   padding: 20px;
 }
 
+/*-----ancre_hebergment_/_activite_nav-----*/
+
 .liens_nav{
   display: flex;
 }
 
 .lien_nav {
+  box-sizing: border-box;
   border-top: solid 1px;
   color: #0065fc;
+  padding-top: 40px;
 }
 
 .lien_nav_1{
-  margin-left: 100px;
-  margin-right: 50px;
+  margin-left: 10px;
+  margin-right: 10px;
+  box-sizing: border-box;
+  padding: 40px;
 }
 
-/*-----ancre_hebergment_/_activite_nav-----*/
+.a_hebergement{ 
+  color: #0065fc;
+  text-decoration: none;
+  padding: 10px;
+}
 
-a { 
+.a_activite{
   color: black;
   text-decoration: none;
+  padding: 10px;
+
 }
 
 a:hover{
   color: rgba(0, 26, 255, 0.4);
+}
+
+a{
+  color: black;
+  text-decoration: none;
 }
 
 /*-----barre_de_recherche_container_1_section_2_trouvez-----*/
@@ -221,7 +238,6 @@ strong{
   border-radius: 30px;
   background: rgb(240, 240, 240);
   width: 60%;
-  height: fit-content;
   margin: 10px;
   padding: 10px;
 }
@@ -241,7 +257,7 @@ strong{
   box-sizing: border-box;
   width: 100%;
   height: 28px;
-  padding: 10px;
+  padding: 0 0 0 20px;
   font-weight: bolder;
 }
 
@@ -266,11 +282,11 @@ strong{
 }
 
 a article div p span{
-  color: #606060;
+  font-weight: bolder;
 }
 
 .fa-star.off {
-  color: #606060;
+  color: #d9d9d9;
 }
 
 .fa-star {
@@ -311,6 +327,7 @@ a article div p span{
   justify-content: space-evenly;
   background: rgb(240, 240, 240);
   margin: 10px; 
+  height: 630px;
 }
 
 .box_3 > .p > .span {
@@ -322,7 +339,7 @@ a article div p span{
 }
 
 #activite {
-  padding: 10px;
+  padding: 10px 0 0 10px;
   font-weight: bolder;
   margin-right: 60px;
   margin-left: 50px;
@@ -566,21 +583,27 @@ a article div p span{
   margin-top: 50px;
 }
 
-.box_5 {
+.footer {
   background-color: rgb(240, 240, 240);
   display: flex;
 }
 
-.box_5 > div {
+.footer > div {
   padding-left: 30px;
-  display: grid;
+  display: flex;
+  flex-direction: column;
   width: 33.3%;
   box-sizing: border-box;
 }
 
 label{
- line-height: 25px;
+ line-height: 30px;
 }
+
+.label_1{
+ line-height: 30px;
+}
+
 
   @media only screen and (max-width: 992px){
 
@@ -590,7 +613,7 @@ body{
   display: block;
 }
 
-.box{
+.header{
  flex-direction: column;
 }
 
@@ -636,6 +659,7 @@ body{
 
 h2{
   font-weight: bolder;
+  font-size: 20px;
 }
 
 form {
@@ -700,10 +724,8 @@ strong{
 }
 
 #hebergement{
-  margin-bottom: 80px;
   font-size: 30px;
   font-weight: bolder;
-  margin-left: 10px;
 }
 
 .article_1 {
@@ -729,7 +751,7 @@ strong{
 }
 
 .p_2{
-  font-size: 25px;
+  font-size: 20px;
   margin-top: 10px;
   margin-bottom: 40px;
 }
@@ -744,8 +766,9 @@ strong{
 /*--MDQ992---container_2_section_3_les_plus_populaire-----*/
 
 #activite{
-  font-size: 25px;
-  margin: 10px;
+  font-size: 30px;
+  box-sizing: border-box;
+  padding: 50px 0 10px;
 }
 
 .col_les_plus_populaire {
@@ -755,6 +778,8 @@ strong{
 .box_3 {
   border-radius: 0;
   margin: 0;
+  display: block;
+  height: auto;
 }
 
 .box_3 > div {
@@ -798,8 +823,8 @@ strong{
 }
 
 .pc2_2{
-  font-size: 25px;
-  height: 60px;
+  font-size: 20px;
+  height: 70px;
 }
 
 .pc2_3{
@@ -810,18 +835,18 @@ strong{
 }
 
 .pc2_4{
-  font-size: 25px;
-  height: 65px;
+  font-size: 20px;
+  height: 70px;
 }
 
 .pc2_5{
-  font-size: 25px;
+  font-size: 30px;
   font-weight: bolder;
 }
 
 .pc2_6{
-  font-size: 25px;
-  height: 80px;
+  font-size: 20px;
+  height: 75px;
 }
 
 /*--MDQ992---container_3_section_4_activite-----*/
@@ -845,21 +870,21 @@ strong{
 
 
 .article_3 > .img_3 {
-  height: 350px;
+  height: 345px;
   object-position: 0 -70px;
 }
 /*--MDQ992---fort_de_pomègues-----*/
 
 
 .article_4 > .img_4 {
-  height: 350px;
+  height: 345px;
   object-position: 0 -470px;
 }
 
 /*--MDQ992---îles_du_frioul-----*/
 
 .article_5 > .img_5 {
-  height: 350px;
+  height: 345px;
   object-position: 0 -80px;
 }
 
@@ -868,13 +893,13 @@ strong{
 
 .article_6 > .img_6{
   object-position: 0 -70px;
-  height: 350px;
+  height: 345px;
 }
 
 /*--MDQ992---nôtre_dame_de_la_garde-----*/
 
 .article_7 > .img_7{
-  height: 350px;
+  height: 345px;
   object-position: 0 -60px;
 }
 
@@ -882,18 +907,18 @@ strong{
 
 
 .article_8 > .img_8{
-  height: 350px;
+  height: 345px;
   object-position: 0 -110px;
 }
 
 /*--MDQ992---container_4_section_5_footer-----*/
 
-.box_5 {
+.footer {
   display: block;
  width: 100%;
 }
 
-.box_5 > div {
+.footer > div {
  width: 100%;
 }
 
@@ -911,7 +936,7 @@ strong{
 }
 
 .pc2_2{
-  font-size: 25px;
+  font-size: 20px;
   height: 75px;
   margin-top: 20px;
 }
@@ -924,7 +949,7 @@ strong{
 }
 
 .pc2_4{
-  font-size: 25px;
+  font-size: 20px;
   height: 55px;
   margin-top: 40px;
 }
@@ -936,7 +961,7 @@ strong{
 }
 
 .pc2_6{
-  font-size: 25px;
+  font-size: 20px;
   height: 70px;
 }
 
@@ -994,7 +1019,7 @@ strong{
   background-color: #0065fc;
   display: flex;
   align-items: center;
-  width: 100%;
+  padding: 10px;
   border-radius: 10px; 
 }
 
@@ -1002,7 +1027,16 @@ strong{
   color: #fff;
   display: flex;
   align-self: center;
-  margin-left: 8px;
+  padding-left: 5px;
+  padding-right: 5px;
+}
+
+#activite{
+  font-size: 25px;
+  box-sizing: border-box;
+  padding: 30px 0 10px;
+  margin-right: 15px;
+  margin-left: 10px;
 }
 
 .article_2{
@@ -1026,8 +1060,8 @@ strong{
 }
 
 .pc2_2{
-  height: 45px;
-  font-size: 19px;
+  height: 40px;
+  font-size: 15px;
   margin: auto;
 }
 
@@ -1037,8 +1071,8 @@ strong{
 }
 
 .pc2_4{
-  font-size: 19px;
-  height: 50px;
+  font-size: 15px;
+  height: 40px;
   margin: 0;
 }
 
@@ -1048,12 +1082,13 @@ strong{
 }
 
 .pc2_6{
-  font-size: 19px;
-  height: 25px;
+  font-size: 15px;
+  height: auto;
 }
 
 #hebergement{
-  font-size: 25px;
+  font-size: 24px;
+  font-weight: bolder;
 }
 
 .article_1 > .img_1{
@@ -1061,11 +1096,11 @@ strong{
 }
 
 .p_1{
- font-size: 25px;
+ font-size: 20px;
 }
 
 .p_2{
- font-size: 25px;
+ font-size: 17px;
 }
 
 .p_4{
