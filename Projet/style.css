@@ -1,9 +1,13 @@
 
 
-/* body */
+/* body container police */
 
 body{
   margin: 0;
+}
+
+.container{
+  width: 100%;
 }
 
 * {
@@ -50,26 +54,21 @@ body{
   width: 100%;
 }
 
-/* container central 1 */
 
-.container {
-  width: 100%;
-}
-
-/*-----container_section_1_nav-----*/
+/*-----container_section_header-----*/
 
 .header{
   display: flex;
   justify-content: space-between;
 }
 
-.nav_logo {
+.logo {
   height: 50px;
   margin: 20px;
   padding: 20px;
 }
 
-/*-----ancre_hebergment_/_activite_nav-----*/
+/*--container_section_1_liens/a_hebergment_activite_header--*/
 
 .liens_nav{
   display: flex;
@@ -112,11 +111,16 @@ a{
   text-decoration: none;
 }
 
-/*-----barre_de_recherche_container_1_section_2_trouvez-----*/
+/*-----container_1-----*/
 
 .container_1{
   box-sizing: border-box;
   padding: 5px;
+}
+
+.box_1{
+  box-sizing: border-box;
+  padding: 15px;
 }
 
 form {
@@ -125,7 +129,7 @@ form {
   border: solid #f2f2f2 1px;
 }
 
-.span {
+.icone_geo {
   background: #f2f2f2;
   align-items: center;
   padding: 10px 14px;
@@ -152,12 +156,7 @@ form > input {
   display: none;
 }
 
-/*-----filtre_container_2_trouvez-----*/
-
-.box_1{
-  box-sizing: border-box;
-  padding: 15px;
-}
+/*-----filtre_container_1_trouvez-----*/
 
 .filtre_1{
   margin: 20px;
@@ -199,22 +198,7 @@ strong{
   margin-bottom: -12px;
 }
 
-/*-----icon_i_container_2_trouvez-----*/
-
-.span_2{
-  color: #0065fc;
-  display: inline-flex;
-  margin-right: 5px;
-  border: solid #d9d9d9 1px;
-  justify-content: center;
-  align-items: center;
-  border-radius: 100%;
-  width: 20px;
-  height: 20px;
-  font-weight: bolder;
-}
-
-/*-----ancre_#_section_2_trouvez-----*/
+/*-----ancre_#_container_1_-----*/
 
 .ancre_1 {
   margin: 15px;
@@ -229,7 +213,23 @@ strong{
   display: inline-block;
 }
 
-/*-----container_2_section_3_hebergement-----*/
+/*-----icon_i_container_1_-----*/
+
+.span_2{
+  color: #0065fc;
+  display: inline-flex;
+  margin-right: 5px;
+  border: solid #d9d9d9 1px;
+  justify-content: center;
+  align-items: center;
+  border-radius: 100%;
+  width: 20px;
+  height: 20px;
+  font-weight: bolder;
+}
+
+
+/*-----container_2_hebergement/populaire-----*/
 
 .col_hebergement {
   display: flex;
@@ -280,10 +280,6 @@ strong{
   margin: 5px;
 }
 
-a article div p span{
-  font-weight: bolder;
-}
-
 .fa-star.off {
   color: #d9d9d9;
 }
@@ -305,17 +301,17 @@ a article div p span{
 }
 
 .etoile{
-  font-size: 10px;
+  font-size: 12px;
 }
 
-/*-----ancre_afficher_plus_container_2_section_3_hebergement-----*/
+/*--ancre_afficher_plus_container_2_hebergement/populaire--*/
 
-.ancre_3 {
+.afficher_plus {
   margin: -20px 0 0px 20px;
   font-weight: bolder;
 }
 
-/*-----container_2_section_3_les_plus_populaire-----*/
+/*-----container_2_les_plus_populaire-----*/
 
 .col_les_plus_populaire {
   width: 40%;
@@ -373,52 +369,6 @@ a article div p span{
   object-fit: cover;
 }
 
-
-.article_2-1 {
-  box-shadow: 5px 5px 5px rgb(230, 230, 230);
-  display: flex;
-  border-radius: 20px;
-  border: solid #fff 5px;
-  background-color: #fff;
-  height: 110px;
-  margin-left: 20px;
-  margin-right: 20px;
-}
-
-.article_2-1 > div {
-  margin: 20px;
-  padding: 5px;
-  margin-top: -5px;
-}
-
-.article_2-1 > .img_2-1 {
-  border-radius: 10px 0 0 10px;
-  width: 40%;
-  object-fit: cover;
-}
-
-.article_2-2 {
-  box-shadow: 5px 5px 5px rgb(230, 230, 230);
-  display: flex;
-  border-radius: 20px;
-  border: solid #fff 5px;
-  background-color: #fff;
-  height: 110px;
-  margin-left: 20px;
-  margin-right: 20px;
-}
-
-.article_2-2 > div {
-  margin: 10px;
-  margin-top: -2px;
-}
-
-.article_2-2 > .img_2-2 {
-  border-radius: 20px 0 0 20px;
-  width: 40%;
-  object-fit: cover;
-}
-
 .pc2_1 {
   margin: 5px 0;
   font-size: 13px;
@@ -430,43 +380,11 @@ a article div p span{
   font-size: 12px;
 }
 
-.pc2_3 {
- font-size: 13px;
- font-weight: bolder;
- margin-top: 5px;
-}
-.pc2_4 {
-  font-size: 12px;
-  height: 40px;
-}
-
-.pc2_5 {
-  font-size: 13px;
-  margin: 10px;
-  font-weight: bolder;
-}
-
-.pc2_6 {
-  margin: 10px;
-  font-size: 12px;
-  height: 30px;
-}
-
-.etoile_pop_1{
+.etoile_pop{
   font-size: 12px;
 }
 
-.etoile_pop_2{
-  margin: -5px 0;
-  font-size: 12px;
-}
-
-.etoile_pop_3{
-  margin: 15px 8px;
-  font-size: 12px;
-}
-
-/*-----container_3_section_4_activite-----*/
+/*-----container_3_activite-----*/
 
 .box_4 {
   display: flex;
@@ -509,18 +427,12 @@ a article div p span{
   border-radius: 20px 20px 0px 0px;
   object-fit: cover;
   width: 100%;
-  height: 319px;
+  height: 316px;
 }
+
 /*-----fort_de_pomègues-----*/
 
-.article_4 {
-  box-shadow: 5px 5px 5px rgb(240, 240, 240);
-  background-color: #fff;
-  border-radius: 20px;
-  width: 100%;
-}
-
-.article_4 > .img_4 {
+.article_3 > .img_4 {
   border-radius: 10px 10px 0px 0px;
   object-fit: cover;
   object-position: 0 -70px;
@@ -530,14 +442,7 @@ a article div p span{
 
 /*-----îles_du_frioul-----*/
 
-.article_5 {
-  box-shadow: 5px 5px 5px rgb(240, 240, 240);
-  background-color: #fff;
-  border-radius: 20px;
-  width: 100%;
-}
-
-.article_5 > .img_5 {
+.article_3 > .img_5 {
   border-radius: 20px 20px 0px 0px;
   object-fit: cover;
   object-position: 0 1px;
@@ -547,31 +452,18 @@ a article div p span{
 
 /*-----parc_national_des_calanques-----*/
 
-.article_6 {
-  box-shadow: 5px 5px 5px rgb(240, 240, 240);
-  background-color: #fff;
-  border-radius: 20px;
-  width: 100%;
-}
 
-.article_6 > .img_6 {
+.article_3 > .img_6 {
   border-radius: 20px 20px 0px 0px;
   object-fit: cover;
   object-position: center top;
   width: 100%;
-  height: 319px;
+  height: 316px;
 }
 
 /*-----nôtre_dame_de_la_garde-----*/
 
-.article_7 {
-  box-shadow: 5px 5px 5px rgb(240, 240, 240);
-  background-color: #fff;
-  border-radius: 20px;
-  width: 100%;
-}
-
-.article_7 > .img_7 {
+.article_3 > .img_7 {
   border-radius: 20px 20px 0px 0px;
   object-fit: cover;
   object-position: top;
@@ -581,19 +473,12 @@ a article div p span{
 
 /*-----parc_longchamps-----*/
 
-.article_8 {
-  box-shadow: 5px 5px 5px rgb(240, 240, 240);
-  background-color: #fff;
-  border-radius: 20px;
-  width: 100%;
-}
-
-.article_8 > .img_8 {
+.article_3 > .img_8 {
   border-radius: 20px 20px 0px 0px;
   object-fit: cover;
   object-position: 0px -1px;
   width: 100%;
-  height: 130px;
+  height: 125px;
 }
 
 /*-----container_4_section_5_footer-----*/
@@ -623,6 +508,7 @@ label{
 .label_1{
  line-height: 30px;
 }
+
 @media only screen and ( max-width: 1024px) {
 
 .p_1{
@@ -633,7 +519,7 @@ label{
 
   @media only screen and (max-width: 992px){
 
-/*--MDQ992---container_section_1_nav-----*/
+/*--MDQ992---container_header_nav-----*/
 
 body{
   display: block;
@@ -669,7 +555,7 @@ body{
   border-bottom: solid #f2f2f2 3px;
 }
 
-/*--MDQ992---barre_de_recherche_container_1_section_2_trouvez-----*/
+/*--MDQ992_container_1_--*/
 
 .container_1{
   display: block;
@@ -714,7 +600,7 @@ form > input{
  margin: 5px;
 }
 
-/*--MDQ992---container_2_section_3_hebergement-----*/
+/*--MDQ992---container_2_hebergement-----*/
 
 .container_2{
   display: flex;
@@ -772,7 +658,7 @@ strong{
   font-size: 15px;
  }
 
-.ancre_3{
+.afficher_plus{
   font-weight: bolder;
   font-size: 25px;
 }
@@ -787,15 +673,10 @@ strong{
   margin-bottom: 20px;
 }
 
-.p_4{
-  padding: 0 0 20px 20px;
-  font-size: 25px;
-}
-
 .fa-star {
   font-size: larger;
 }
-/*--MDQ992---container_2_section_3_les_plus_populaire-----*/
+/*--MDQ992---container_2_les_plus_populaire-----*/
 
 #activite{
   font-size: 30px;
@@ -828,43 +709,13 @@ strong{
   width: 30%;
 }
 
-.article_2-1{
-  height: 200px;
-  margin-left: 35px;
-  margin-right: 35px;
-}
-
-.article_2-1 > .img_2-1{
-  width: 30%;
-}
-
-.article_2-2{
-  height: 200px;
-  margin-left: 35px;
-  margin-right: 35px;
-}
-
-.article_2-2 > .img_2-2{
-  width: 30%;
-}
-
 .article_2 > div {
   margin: 0 0 0 20px;
 }
 
-.etoile_pop_1{
-  font-size: 18px;
-  margin: 25px 0 0 0;
-}
-
-.etoile_pop_2{
-  margin: 70px 0;
-  font-size: 18px;
-}
-
-.etoile_pop_3{
-  font-size: 18px;
-  margin: 35px 10px;
+.etoile_pop{
+  font-size: 15px;
+  margin: 40px 0;
 }
 
 .pc2_1{
@@ -877,33 +728,11 @@ strong{
   height: 70px;
 }
 
-.pc2_3{
-  font-size: 25px;
-  font-weight: bolder;
-  height: 40px;
-  margin-top: 10px;
-}
-
-.pc2_4{
-  font-size: 20px;
-  margin: -15px 0;
-}
-
-.pc2_5{
-  font-size: 25px;
-  font-weight: bolder;
-}
-
-.pc2_6{
-  font-size: 20px;
-  height: 75px;
-}
-
-/*--MDQ992---container_3_section_4_activite-----*/
+/*--MDQ992---container_3_activite-----*/
 
 .box_4 {
   display: block;
- width: 100%;
+  width: 100%;
 }
 
 .box_4 > div {
@@ -926,14 +755,14 @@ strong{
 /*--MDQ992---fort_de_pomègues-----*/
 
 
-.article_4 > .img_4 {
+.article_3 > .img_4 {
   height: 345px;
   object-position: 0 -470px;
 }
 
 /*--MDQ992---îles_du_frioul-----*/
 
-.article_5 > .img_5 {
+.article_3 > .img_5 {
   height: 345px;
   object-position: 0 -80px;
 }
@@ -941,14 +770,14 @@ strong{
 
 /*--MDQ992---parc_national_des_calanques-----*/
 
-.article_6 > .img_6{
+.article_3 > .img_6{
   object-position: 0 -80px;
   height: 345px;
 }
 
 /*--MDQ992---nôtre_dame_de_la_garde-----*/
 
-.article_7 > .img_7{
+.article_3 > .img_7{
   height: 345px;
   object-position: 0 -70px;
 }
@@ -956,12 +785,17 @@ strong{
 /*--MDQ992---parc_longchamps-----*/
 
 
-.article_8 > .img_8{
+.article_3 > .img_8{
   height: 345px;
   object-position: 0 -120px;
+} 
+
+.p_4{
+  font-size: 25px;
+  font-weight: bolder;
 }
 
-/*--MDQ992---container_4_section_5_footer-----*/
+/*--MDQ992---container_footer-----*/
 
 .footer {
   display: block;
@@ -987,18 +821,6 @@ strong{
   margin-left: 30px;
 }
 
-.article_2-1{
-  margin-right: 30px;
-  margin-left: 30px;
-  height: 150px;
-}
-
-.article_2-2{
-  height: 150px;
-  margin-right: 30px;
-  margin-left: 30px;
-}
-
 #activite{
   font-size: 25px;
 }
@@ -1012,41 +834,10 @@ strong{
   margin: 10px 0 30px;
 }
 
-.pc2_3{
-  font-size: 20px;
-  margin: 10px 0 5px;
-}
-
-.pc2_4{
+.etoile_pop{
   font-size: 15px;
-  margin: -10px 0 0;
+  margin: -20px 0 ;
 }
-
-.pc2_5{
-  font-size: 20px;
-
-}
-
-.pc2_6{
-  margin: 0 0 10px 10px;
-  font-size: 17px;
-} 
-
-.etoile_pop_1{
-  font-size: 15px;
-  margin: -20px 0 0 0;
-}
-
-.etoile_pop_2{
-  font-size: 15px;
-  margin: 40px 0;
-}
-
-.etoile_pop_3{
- font-size: 15px;
- margin : 0 0 0 10px;
-}
-
 
 #hebergement{
   font-size: 25px;
@@ -1060,11 +851,10 @@ strong{
   font-size: 15px;
 }
 
-.ancre_3{
+.afficher_plus{
   font-size: 20px;
   margin: 10px;
 }
-
 
 .h2_3{
   padding: 0 0 0 30px;
@@ -1076,20 +866,19 @@ strong{
   padding: 0 0 20px 20px;
 }
 
-
 .article_3 > .img_3{
   object-position: 0 -30px;
   height: 290px;
 }
 
-.article_4 > .img_4{
+.article_3 > .img_4{
   height: 290px;
   object-position: 0 -350px;
 }
 
 /*--MDQ768---îles_du_frioul-----*/
 
-.article_5 > .img_5 {
+.article_3 > .img_5 {
   height: 290px;
   object-position: 0 -30px;
 }
@@ -1097,21 +886,21 @@ strong{
 
 /*--MDQ768---parc_national_des_calanques-----*/
 
-.article_6 > .img_6{
+.article_3 > .img_6{
   height: 290px;
   object-position: 0 -30px;
 }
 
 /*--MDQ768---nôtre_dame_de_la_garde-----*/
 
-.article_7 > .img_7{
+.article_3 > .img_7{
   height: 290px;
   object-position: 0 -30px;
 }
 
 /*--MDQ768---parc_longchamps-----*/
 
-.article_8 > .img_8{
+.article_3 > .img_8{
   height: 290px;
   object-position: 0 -65px;
 }
@@ -1145,10 +934,8 @@ strong{
 #activite{
   font-size: 20px;
   padding: 30px 0 10px 10px;
-
   margin-left: 10px;
 }
-
 
 #activite > i{
   margin-right: 30px;
@@ -1160,60 +947,16 @@ strong{
   margin-right: 15px;
 }
 
-.article_2-1{
-  height: 140px;
-  margin-left: 15px;
-  margin-right: 15px;
-}
-
-.article_2-2{
-  height: 140px;
-  margin-left: 15px;
-  margin-right: 15px;
-} 
-
-.etoile_pop_1{
-  margin: 40px 0;
-}
-
-.etoile_pop_2{
-  margin: 20px 0;
-}
-
-.etoile_pop_3{
-  margin-top: 60px;
+.etoile_pop{
+  margin: -20px 0;
 }
 
 .pc2_1{
   font-size: 15px;
-  margin-top: 5px;
 }
 
 .pc2_2{
-  height: 40px;
-  font-size: 15px;
-  margin: auto;
-}
-
-.pc2_3{
-  font-size: 15px;
-  height: 40px;
-}
-
-.pc2_4{
-  font-size: 15px;
-  height: 40px;
-  margin: 0;
-}
-
-.pc2_5{
- font-size: 15px;
- margin-top: 10px;
-}
-
-.pc2_6{
-  font-size: 15px;
-  height: auto;
+  margin: 20px 0;
 }
 
 #hebergement{
@@ -1238,15 +981,16 @@ strong{
 }
 
 .p_2{
- font-size: 12px;
+ font-size: 13px;
  margin: 10px 0;
 }
 
 .p_4{
-  font-size: large;
+  padding: 0 0 0 15px;
+  margin: 5px 0 0 0;
 }
 
-.ancre_3{
+.afficher_plus{
  font-size: 20px;
 }
 
@@ -1259,28 +1003,32 @@ strong{
   height: 145px;
 }
 
-.article_4 > .img_4{
+.article_3 > .img_4{
   object-position: 0 -150px;
   height: 145px;
 }
 
-.article_5 > .img_5{
+.article_3 > .img_5{
   object-position: 0 -5px;
   height: 145px;
 }
 
-.article_6 > .img_6 {
+.article_3 > .img_6 {
   height: 145px;
   object-position: 0 -5px;
 }
-.article_7 > .img_7{
+.article_3 > .img_7{
   height: 145px;
   object-position: 0 0px;
 }
 
-.article_8 > .img_8 {
+.article_3 > .img_8 {
   object-position: 0 -20px;
   height: 145px;
+}
+
+label{
+  font-size: 15px;
 }
 
 }
