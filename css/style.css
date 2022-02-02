@@ -322,8 +322,9 @@ strong{
 }
 
 .article_2 > div {
-  box-sizing: border-box;
-  padding: 0px 0 0 20px;
+  display: flex;
+  flex-direction: column;
+  padding: 10px 0 0 20px;
 }
 
 .article_2 > .img_2{
@@ -466,7 +467,7 @@ strong{
 
 label{
  line-height: 30px;
- font-size: 12px;
+ font-size: 15px;
 }
 
 .label_1{
@@ -708,12 +709,13 @@ strong{
 }
 
 .article_2 > div {
-  margin: 0 0 0 20px;
+  display: flex;
+  flex-direction: column;
 }
 
 .etoile_pop{
   font-size: 15px;
-  margin: 40px 0;
+  padding: 20px 0;
 }
 
 .pc2_1{
@@ -741,6 +743,7 @@ strong{
 .h2_3{
   font-size: 30px;
   font-weight: bolder;
+  margin-top: 50px;
 }
 
 /*--MDQ992--- vieux_port-----*/
@@ -984,8 +987,7 @@ strong{
 }
 
 .p_4{
-  padding: 0 0 0 15px;
-  margin: 5px 0 0 0;
+  padding: 0 0 10px 20px;
 }
 
 .afficher_plus{
@@ -1023,10 +1025,6 @@ strong{
 .article_3 > .img_8 {
   object-position: 0 -20px;
   height: 145px;
-}
-
-label{
-  font-size: 15px;
 }
 
 }
